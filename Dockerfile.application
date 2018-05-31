@@ -1,7 +1,5 @@
 FROM nginx:alpine
 
-WORKDIR /usr/src/app
-
 EXPOSE 8080
 
-COPY . .
+COPY . /usr/share/nginx/html
