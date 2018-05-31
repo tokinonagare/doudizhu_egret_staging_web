@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZTaskSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="backgroundImage" width="100%" height="100%" x="0" y="0"/>
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6" strokeAlpha="0.6"/>
+	<ns1:DDZTaskPopup id="popup" width="1239" height="683" skinName="DDZTaskPopupUI" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

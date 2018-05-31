@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserCoinInfoUI" width="200" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="10" verticalCenter="-1" source="img_userinfo_coin@2x_png"/>
+	<e:Label id="coinLabel" text="882233434" size="27" verticalCenter="0" left="55" textColor="0xde7a0d"/>
+</e:Skin>

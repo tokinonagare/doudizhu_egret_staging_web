@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRoomTopToolbarUI" width="1334" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_room_top_toolbar@2x_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+	<e:Button id="backButton" label="" left="35" verticalCenter="0" skinName="DDZBackButtonUI">
+	</e:Button>
+	<e:Button id="settingsButton" label="" verticalCenter="0" right="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_home_settings@2x_png" source.down="btn_home_settings_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="选择房间" textColor="0xfefcf7" strokeColor="0x350d0d" stroke="2" verticalCenter="0" left="210"/>
+</e:Skin>

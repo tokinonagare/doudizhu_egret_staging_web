@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayerStateUI" width="302" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="noBiggerCardsImg" width="302" height="52" x="0" y="0" scaleX="1" scaleY="1" source="img_no_bigger_cards@2x_png"/>
+	<e:Image id="notAddTimesImg" width="128" height="43" x="87" y="5" scaleX="1" scaleY="1" source="img_not_add_times@2x_png"/>
+	<e:Image id="notCallLandlordImg" width="84" height="43" x="109" y="5" scaleX="1" scaleY="1" source="img_not_call_landlord@2x_png"/>
+	<e:Image id="notPlayImg" width="84" height="43" x="109" y="5" scaleX="1" scaleY="1" source="img_not_play@2x_png"/>
+	<e:Image id="addTimesImg" width="83" height="42" y="5" scaleX="1" scaleY="1" x="110" source="img_add_times@2x_png"/>
+	<e:Image id="callOnePointImage" width="73" height="47" scaleX="1" scaleY="1" x="110" y="5" source="img_one_point@2x_png"/>
+	<e:Image id="callTwoPointImage" width="73" height="47" scaleX="1" scaleY="1" x="110" y="5" source="img_two_point@2x_png"/>
+	<e:Image id="callThreePointImage" width="73" height="47" scaleX="1" scaleY="1" x="110" y="5" source="img_three_point@2x_png"/>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UsernameSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xffffff"/>
+	<e:Button id="backButton" label="" top="0" left="0" skinName="ArrwoBackButtonUI">
+	</e:Button>
+	<e:Group id="descriptionGroup" width="700" height="160" horizontalCenter="0" top="259">
+		<e:Label text="选择一个用户名" horizontalCenter="0" top="330" textColor="0x141414" size="42" x="174" y="99.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label text="你的朋友可以通过你的用户名加你为好友" horizontalCenter="0" top="380" size="30" textColor="0x65636d" textAlign="center" width="500" lineSpacing="16" x="63.99999999999999" y="149.99999999999997" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout gap="16" horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="inputGroup" width="700" height="200" top="440" horizontalCenter="0">
+		<ns1:UnderLineTextInput id="usernameInput" width="600" height="100" skinName="UnderLineTextInputUI" x="50" y="422" scaleX="1" scaleY="1"/>
+		<e:Label id="inputStateLabel" text="哎呀！用户名必须至少包含3个字符" x="37" y="115" textColor="0xe52929" size="25" width="600" textAlign="left"/>
+		<e:layout>
+			<e:VerticalLayout gap="10" horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="continueButton" label="继续" skinName="RoundButtonUI" horizontalCenter="0" top="750"/>
+</e:Skin>

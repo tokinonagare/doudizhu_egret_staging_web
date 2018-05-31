@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZLeftPlayerGameInfoUI" width="150" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:DDZPlayerStateView id="playerStateView" width="302" height="52" skinName="DDZPlayerStateUI" left="7" bottom="83"/>
+	<ns1:DDZPlayerRemainCardView id="remainCardView" left="0" bottom="3" skinName="DDZPlayerRemainCardUI"/>
+	<ns1:DDZWarningLightView id="warningLightView" skinName="DDZWarningLightUI" right="-32" verticalCenter="42"/>
+</e:Skin>

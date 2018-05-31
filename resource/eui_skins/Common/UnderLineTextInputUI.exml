@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UnderLineTextInputUI" width="400" height="149" states="normal,disabled,normalWithPrompt,disabledWithPrompt" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0" left="10">
+		<e:Label id="titleLabel" text="Label" x="6" bottom="100" textColor="0xb4b4b4" size="25" y="33" scaleX="1" scaleY="1"/>
+		<e:EditableText id="textDisplay" verticalCenter="0" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="50%" size="30" text="" verticalAlign="bottom" x="7" y="41" scaleX="1" scaleY="1" textAlign="left" textColor="0x000000"/>
+		<e:Rect height="2" left="10" fillColor="0xe3e3e9" bottom="10" x="7" y="141" scaleX="1" scaleY="1" width="100%"/>
+		<e:layout>
+			<e:VerticalLayout verticalAlign="middle" gap="5"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZStoreGoodUI" width="296" height="213" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="background" left="0" right="0" bottom="0" top="0" source="bg_store_goods@2x_png"/>
+	<e:Group id="quantityGroup" width="280" height="40" horizontalCenter="0" verticalCenter="-89">
+		<e:Label text="x" x="60" y="8" verticalAlign="bottom" textAlign="center" height="40" bold="true" size="35" stroke="3" strokeColor="0xfcf7f3" textColor="0xdf3b12"/>
+		<e:Label id="quantityLabel" text="3600" x="144" y="142" height="40" verticalAlign="bottom" bold="true" size="35" strokeColor="0xfcfaf7" textColor="0xdf3b12" stroke="3"/>
+		<e:layout>
+		<e:HorizontalLayout gap="5" horizontalAlign="center" verticalAlign="middle" paddingRight="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="goodsImage" horizontalCenter="0" verticalCenter="-14" source="img_store_coins_1@2x_png"/>
+	<e:Group id="buttonGroup" width="156" height="62" anchorOffsetX="0" anchorOffsetY="0" bottom="5" horizontalCenter="0">
+		<e:Button id="purchaseButton" label="" horizontalCenter="0" verticalCenter="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_store_goods_purchase@2x_png" source.down="btn_store_goods_purchase@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="diamondGroup" height="100%" width="100%" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+			<e:Label id="currencySymbol" text="¥" x="41" y="15" touchEnabled="false" textColor="0xf9ebdb" strokeColor="0xe48d5c" stroke="1"/>
+			<e:Label id="diamondPriceLabel" text="6" x="51" y="25" touchEnabled="false" textColor="0xF9EBDB" strokeColor="0xe48d5c" stroke="1"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingBottom="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="coinGroup" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+			<e:Image touchEnabled="false" source="icon_store_diamond@2x_png" horizontalCenter="-15" verticalCenter="-2"/>
+			<e:Label id="coinPriceLabel" text="6" x="51" y="25" touchEnabled="false" textColor="0xF9EBDB" strokeColor="0xE48D5C" stroke="1"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

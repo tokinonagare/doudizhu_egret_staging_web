@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZGameOverSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="background" right="0" top="0" left="0" bottom="0" width="1334" height="750"/>
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.5" strokeAlpha="0.5"/>
+	<ns1:DDZGameOverSuccessView id="successView" width="1334" height="750" skinName="DDZGameOverSuccessUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZGameOverFailedView id="failedView" width="1334" height="750" skinName="DDZGameOverFailedUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZGameOverToolbar id="toolbar" skinName="DDZGameOverToolbarUI" top="0" horizontalCenter="0"/>
+</e:Skin>

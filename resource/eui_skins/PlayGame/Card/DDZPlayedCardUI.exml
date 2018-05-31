@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayedCardUI" width="70" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="image" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" source="poker_2h@2x_png"/>
+	<e:Image id="landlordSignImage" width="65%" height="45%" source="img_played_card_landlord_sign@2x_png" top="0" right="0"/>
+</e:Skin>

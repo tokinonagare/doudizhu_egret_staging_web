@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZGameOverPlayInfoUI" width="500" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="nameLabel" text="mark-2323" textColor="0xf4650c" size="22" verticalCenter="0" height="20" width="150" verticalAlign="middle" horizontalCenter="-163" textAlign="center" wordWrap="false" multiline="false"/>
+	<e:Label id="baseScoreLabel" text="10" textColor="0xF4650C" size="22" verticalCenter="0" horizontalCenter="-50.5"/>
+	<e:Label id="multipleLabel" text="x500" textColor="0xF4650C" size="22" verticalCenter="0" horizontalCenter="57.5"/>
+	<e:Label id="coinLabel" text="202" textColor="0xF4650C" size="22" verticalCenter="0" width="81" left="419"/>
+</e:Skin>

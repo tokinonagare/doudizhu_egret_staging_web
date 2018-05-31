@@ -1,0 +1,13 @@
+{
+    "coin": [
+        {
+            "product_image": "img_store_coins_1@2x_png",
+            "product_price": 1,
+            "product_id": "org.egret.doudizhu_ios.10000coins",
+            "product_quantity": 10000
+        }
+    ],
+    "diamond": [
+
+    ]
+}

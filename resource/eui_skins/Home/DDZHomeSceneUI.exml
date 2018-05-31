@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZHomeSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" source="bg_home_jpg"/>
+	<ns1:DDZHomeTopToolbar id="topToolbar" horizontalCenter="0" top="0" skinName="DDZHomeTopToolbarUI"/>
+	<ns1:DDZHomeGameBoard id="gameBoard" skinName="DDZHomeGameBoardUI" left="34" verticalCenter="-198"/>
+	<e:Group width="500" height="450" right="0" verticalCenter="202">
+		<e:Button id="selectRoomButton" label="" width="489" height="210" scaleX="1" scaleY="1" right="0" top="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_select_room@2x_png" source.down="btn_home_select_room_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="quickStartButton" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_quick_start@2x_png" source.down="btn_home_quick_start_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

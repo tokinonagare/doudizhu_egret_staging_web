@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZStoreTabbarItemUI" width="400" height="300" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,up"  width.up="60" height.up="114" width.down="80" height.down="158">
+	<e:Image id="downImage" width="100%" height="100%" includeIn="down" x="0" y="0" source="btn_store_coin_on@2x_png"/>
+	<e:Image id="upImage" includeIn="up" x="0" y="0" source="btn_store_coin@2x_png" width="100%" height="100%"/>
+</e:Skin>

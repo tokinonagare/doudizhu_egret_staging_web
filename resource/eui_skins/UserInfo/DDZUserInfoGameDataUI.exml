@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserInfoGameDataUI" width="200" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="200" height="50" x="0" y="0">
+		<e:Label id="titleLabel" text="总局数：" size="25" verticalCenter="0" left="0" textColor="0x5a1d17"/>
+		<e:Label id="valueLabel" text="118" size="25" verticalCenter="0" left="96" textAlign="left" x="96" y="13" scaleX="1" scaleY="1" textColor="0xfcefe8"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

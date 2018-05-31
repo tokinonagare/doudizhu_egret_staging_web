@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameLaunchSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="bg_launch_game@2x_jpg"/>
+	<e:Image source="img_resource_loading@2x_png" horizontalCenter="0" bottom="80"/>
+	<e:ProgressBar id="progress" horizontalCenter="0" bottom="20" value="0" skinName="GameLaunchProgressUI"/>
+</e:Skin>

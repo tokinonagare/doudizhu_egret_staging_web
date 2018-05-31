@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayerRemainCardUI" width="48" height="58" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="poker_back@2x_png" width="100%" height="100%"/>
+	<e:Group id="amountLabelGroup" width="100%" height="100%" x="0" y="0">
+		<e:Label id="amountLabel" text="25" size="32" strokeColor="0x414660" stroke="1" textColor="0xfcf2e8" scaleX="1" scaleY="1" backgroundColor="0x0a0606" x="6" y="13" bold="true"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZStoreGoodListUI" width="950" height="440" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:List id="goodsList" width="100%" height="100%" verticalCenter="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" rowHeight="213" columnWidth="296" horizontalGap="0" verticalGap="10" paddingRight="0" paddingLeft="0"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

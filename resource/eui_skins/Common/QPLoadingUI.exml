@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QPLoadingUI" width="750" height="1334" currentState="rotate" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" states="rotate" >
+	<w:Declarations>
+		<tween:TweenGroup id="loadingAnimationGroup">
+			<tween:TweenItem target="{circleImage}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object rotation="{90}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object rotation="{180}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object rotation="{270}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{spadeImage}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{-1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect fillAlpha="0.5" strokeAlpha="0.5" width="100%" height="100%" fillColor="0x000000" x="0" y="0"/>
+	<e:Group id="animationGroup" height="300" verticalCenter="0" horizontalCenter="0" width="300">
+		<e:Image id="circleImage" horizontalCenter="0" verticalCenter="-25" width.rotate="106" height.rotate="108" x.rotate="97" y.rotate="71" source="img_loading_circle@2x_png"/>
+		<e:Image id="spadeImage" horizontalCenter="0" verticalCenter="-25" width="43" height="44" source="img_loading_spade@2x_png"/>
+		<e:Label id="messageLabel" text="努力加载中..." textColor="0xe5dfdf" horizontalCenter="0" verticalCenter="66"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

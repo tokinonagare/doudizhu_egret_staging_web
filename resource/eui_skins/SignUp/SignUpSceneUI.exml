@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignUpSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16386c2acb3"/>
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xffffff"/>
+	<e:Button id="backButton" label="" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="ArrwoBackButtonUI"/>
+	<e:Label text="输入验证码" y="260" textColor="0x000000" bold="true" size="42" anchorOffsetY="0" height="46.97" textAlign="center" horizontalCenter="0"/>
+	<ns1:UnderLineTextInput id="verificationCodeInput" width="600" height="100" x="85" y="580" anchorOffsetX="0" anchorOffsetY="0" skinName="UnderLineTextInputUI"/>
+	<e:Label  id="verificationInputTipsLabel" text="输入我们发送至 12345678901 的验证码" x="140" y="340" anchorOffsetX="0" width="470" anchorOffsetY="0" height="72" textAlign="center" lineSpacing="12" textColor="0x767779"/>
+	<e:Label id="warningLabel" text="验证码错误!" x="85" y="690" size="24" width="600" textAlign="left" textColor="0xe52929" visible="false"/>
+	<e:Button id="continueButton" label="继续" y="800" skinName="RoundButtonUI" horizontalCenter="0" enabled="false"/>
+</e:Skin>

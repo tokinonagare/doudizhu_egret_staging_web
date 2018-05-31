@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DDZBindAccountTextInputUI" minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt" xmlns:e="http://ns.egret.com/eui" width="300" height="50">
+	<e:Image width="100%" height="100%" x="0" y="0" source="bg_bind_account_input@2x_png"/>
+ 	<e:EditableText id="textDisplay" verticalCenter="0" left="10" right="10"
+	                textColor.disabled="0xff0000" width="100%" height="30" size="28"  text="" textColor="0x68472c" verticalAlign="middle"/>
+	<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10"
+	                textColor="0xa9a9a9" width="100%" height="30" size="28" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" text="请输入一些东西" verticalAlign="top"/>
+</e:Skin>

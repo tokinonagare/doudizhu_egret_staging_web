@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZMailSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="backgroundImage" width="1334" height="750" x="0" y="0"/>
+	<ns1:DDZTransparentCover x="0" y="0" skinName="DDZTransparentCoverUI"/>
+	<ns1:DDZMailPopupView id="popup" skinName="DDZMailPopupUI" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPopupStoreUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:DDZTransparentCover skinName="DDZTransparentCoverUI" verticalCenter="0" horizontalCenter="0"/>
+	<e:Panel width="1094" height="620" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" source="bg_popup_store@2x_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:TabBar id="tabbar" width="1094" height="94" horizontalCenter="0" x="27" scaleX="1" scaleY="1" top="0"/>
+		<ns1:DDZPopupCloseButton id="closeButton" top="15" right="15" skinName="DDZGrayPopupCloseButtonUI"/>
+		<ns1:DDZStoreGoodListView id="goodsListView" skinName="DDZStoreGoodListUI" horizontalCenter="0" verticalCenter="43"/>
+	</e:Panel>
+</e:Skin>

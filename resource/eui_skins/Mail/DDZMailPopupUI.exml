@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZMailPopupUI" width="1239" height="684" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bg" source="bg_mail_scene@2x_png" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZPopupCloseButton id="closeButton" skinName="DDZPopupCloseButtonUI" right="-34" top="20"/>
+	<ns1:DDZEmptyContentView id="emptyContentView" skinName="DDZEmptyContentUI" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller id="mailListScroller" width="1108" height="445" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="110" scrollPolicyH="off" scrollPolicyV="on">
+		<e:Group>
+			<e:List id="mailList" width="1108" height="445" horizontalCenter="0" verticalCenter="0">
+				<e:layout>
+					<e:TileLayout orientation="columns" horizontalGap="0" verticalGap="5" horizontalAlign="center" verticalAlign="middle" rowHeight="138" columnWidth="1106" requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

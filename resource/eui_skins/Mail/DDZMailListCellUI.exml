@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZMailListCellUI" width="1106" height="138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="bg_mail_list_cell@2x_png"/>
+	<e:Image id="iconImage" left="18" verticalCenter="-2" source="icon_mail@2x_png"/>
+	<e:Label id="titleLabel" text="圣诞大礼包" verticalCenter="-2" left="165" textColor="0x782610"/>
+	<e:Label id="dateLabel" text="今天" textColor="0x983704" verticalCenter="-2" right="66"/>
+	<e:Image id="notReadSign" right="15" top="12" source="img_mail_not_read_sign@2x_png"/>
+</e:Skin>

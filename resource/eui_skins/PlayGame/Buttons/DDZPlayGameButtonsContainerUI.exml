@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayGameButtonsContainerUI" width="750" height="104" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:DDZCallLandlordButtons id="callLandlordButtons" skinName="DDZCallLandlordButtonsUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZPlayCardButtons id="playCardButtons" skinName="DDZPlayCardButtonsUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZMustPlayCardButtons id="mustPlayCardButtons" skinName="DDZMustPlayCardButtonsUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZNoBiggerCardsButtons id="noBiggerCardsButtons" skinName="DDZNoBiggerCardsButtonsUI" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="startGameButton" label="" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_start_game@2x_png" source.down="btn_start_game_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

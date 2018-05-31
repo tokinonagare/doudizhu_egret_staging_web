@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZEmptyContentUI" height="308" xmlns:e="http://ns.egret.com/eui" width="310">
+	<e:Image source="img_empty_content@2x_png" width="100%" height="100%" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

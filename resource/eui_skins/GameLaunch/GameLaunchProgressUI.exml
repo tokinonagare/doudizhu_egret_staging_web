@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameLaunchProgressUI" width="650" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="650" height="50" scaleX="1" scaleY="1" source="bg_progress_bar@2x_png" horizontalCenter="0" bottom="0"/>
+	<e:Image id="thumb" height="33" x="8" y="4" scaleX="1" scaleY="1" width="633" source="fg_progress_bar@2x_png"/>
+	<e:Label id="labelDisplay" text="99%" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-4" textColor="0x8c3d11" size="28"/>
+</e:Skin>

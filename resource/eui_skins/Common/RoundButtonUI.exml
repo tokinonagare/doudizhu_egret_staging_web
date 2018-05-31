@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundButtonUI" width="450" height="96" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+        <e:Image width="100%" height="100%" x="0" y="0" source="btn_round@2x_png"
+                source.down="btn_round_on@2x_png" source.disabled="btn_round_disable@2x_png"/>
+        <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+             size="34"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" text="继续" size.down="32"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRearCardUI" width="105" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="image" x="0" y="0" source="poker_back@2x_png" width="100%" height="100%"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZStoreSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1334" height="750" horizontalCenter="0" verticalCenter="0" source="bg_home_jpg"/>
+	<ns1:DDZStoreTopToolbar id="topToolbar" width="1334" height="107" horizontalCenter="0" top="0" skinName="DDZStoreTopToolbarUI"/>
+	<e:Image source="bg_store_goods_list@2x_png" bottom="10" horizontalCenter="0"/>
+	<e:TabBar id="tabBar" height="272" verticalCenter="35" left="67" width="80" itemRendererSkinName="DDZStoreTabbarItemUI">
+		<e:layout>
+			<e:VerticalLayout gap="0" horizontalAlign="right" verticalAlign="top"/>
+		</e:layout>
+	</e:TabBar>
+	<ns1:DDZStoreGoodListView id="goodsListView" skinName="DDZStoreGoodListUI" right="158" verticalCenter="117"/>
+</e:Skin>

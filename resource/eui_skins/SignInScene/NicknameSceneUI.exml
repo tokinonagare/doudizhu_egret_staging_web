@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NicknameSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xFFFFFF"/>
+	<e:Button id="continueButton" label="继续" y="830" skinName="RoundButtonUI" horizontalCenter="0"/>
+	<e:Label text="你叫什么名字?" y="333.58" textColor="0x000000" size="42" anchorOffsetY="0" height="46.97" horizontalCenter="0"/>
+	<e:Button id="backButton" label="" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="ArrwoBackButtonUI"/>
+	<ns1:UnderLineTextInput id="firstNameInput" width="600" height="100" x="85" y="466.41" anchorOffsetX="0" anchorOffsetY="0" skinName="UnderLineTextInputUI"/>
+	<ns1:UnderLineTextInput id="lastNameInput" width="600" height="100" x="85" y="641.26" anchorOffsetX="0" anchorOffsetY="0" skinName="UnderLineTextInputUI"/>
+</e:Skin>

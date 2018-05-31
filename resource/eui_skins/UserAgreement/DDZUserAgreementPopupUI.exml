@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserAgreementPopupUI" width="1123" height="638" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" x="0" y="0" source="bg_agreement@2x_png"/>
+	<e:Group id="refuseAndAcceptGroup" width="500" height="100" bottom="-27" horizontalCenter="0">
+		<e:Button id="refuseButton" label="" x="77" y="17" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_agreement_refuse@2x_png" source.down="btn_agreement_refuse_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="acceptButton" label="" x="87" y="26">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_agreement_accept@2x_png" source.down="btn_agreement_accept_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="okGroup" width="200" height="100" horizontalCenter="0" bottom="-27">
+		<e:Button id="okButton" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_agreement_ok@2x_png" source.down="btn_agreement_ok_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Scroller width="975" height="378" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="36">
+		<e:Group>
+			<e:Label id="contentLabel" text="" x="0" y="0" width="975" size="26" textColor="0x6a5142" fontFamily="KaiTi"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

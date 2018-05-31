@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserInfoSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="backgroundImage" width="100%" height="100%" x="0" y="0"/>
+	<ns1:DDZTransparentCover skinName="DDZTransparentCoverUI" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:DDZUserInfoPopup id="popup" skinName="DDZUserInfoPopupUI" horizontalCenter="-1" verticalCenter="0"/>
+</e:Skin>

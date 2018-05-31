@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZHomeTopToolbarUI" width="750" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="toolbarBackground" x="0" y="0" source="bg_home_top_toolbar@2x_png"/>
+	<e:Label id="nameLabel" text="会跳舞的小恐龙" x="135.67" textColor="0xd9d0b3" size="25" verticalCenter="-10"/>
+	<e:Label id="idLabel" text="ID:0000001" x="135.67" textColor="0xD9D0B3" size="25" verticalCenter="20"/>
+	<e:Button id="settingsButton" label="" right="20" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_home_settings@2x_png" source.down="btn_home_settings_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:DDZUserInfoAvatar id="userAvatar" width="105" height="105" x="19" skinName="DDZUserInfoAvatarUI" verticalCenter="0"/>
+</e:Skin>

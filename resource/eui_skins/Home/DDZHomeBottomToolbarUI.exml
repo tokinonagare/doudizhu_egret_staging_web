@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZHomeBottomToolbarUI" width="1334" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_home_bottom_toolbar@2x_png" bottom="0" horizontalCenter="0"/>
+	<e:Button id="storeButton" label="" bottom="0" right="198">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_home_store@2x_png" source.down="btn_home_store_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="914" height="75" left="0" top="0">
+		<e:Button id="packageButton" label="" horizontalCenter="174" bottom="6" x="472.0000000000001" y="-4" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_package@2x_png" source.down="btn_home_package_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="activityButton" label="" bottom="6" horizontalCenter="-174" x="124" y="-5" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_activity@2x_png" source.down="btn_home_activity_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="taskButton" label="" horizontalCenter="0" bottom="6" x="300" y="-4" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_task@2x_png" source.down="btn_home_task_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="mailButton" label="" top="0" right="402" x="527" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_home_mail@2x_png" source.down="btn_home_mail_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="100" horizontalAlign="right" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRoomUI" width="390" height="232" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" left="0" right="0" top="0" bottom="0" source="bg_middle_room@2x_png"/>
+	<e:Image id="nameImage" horizontalCenter="0" top="50" source="img_middle_room_name@2x_png"/>
+	<e:Image width="22" height="23" horizontalCenter="-162" top="192" source="icon_room_player_count@2x_png"/>
+	<e:Label id="playerCountLabel" text="223232" top="193" size="22" horizontalCenter="-99"/>
+	<e:Label id="requiredCoinLabel" text="1000金币" horizontalCenter="129.5" bottom="20" size="22"/>
+	<e:Image width="20" height="20" x="242" y="192" source="icon_room_balance_require@2x_png"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZSettingsPopupUI" width="750" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_settings@2x_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+	<ns1:DDZPopupCloseButton id="closeButton" skinName="DDZGrayPopupCloseButtonUI" right="13" top="8"/>
+	<e:Label text="声音" textColor="0x8d5c2f" strokeColor="0xdbcabc" stroke="1" horizontalCenter="0" top="110"/>
+	<ns1:DDZSettingsSwitch id="musicSwitch" skinName="DDZSettingsSwitchUI" horizontalCenter="-200" verticalCenter="-38"/>
+	<ns1:DDZSettingsSwitch id="soundSwitch" skinName="DDZSettingsSwitchUI" horizontalCenter="200" verticalCenter="-38"/>
+</e:Skin>

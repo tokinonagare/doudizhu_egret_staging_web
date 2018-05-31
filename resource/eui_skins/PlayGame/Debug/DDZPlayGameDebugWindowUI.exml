@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayGameDebugWindowUI" width="1000" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.4" strokeAlpha="0.4"/>
+	<e:Group width="1000" height="100" x="0" y="0">
+		<e:Label id="roomIdLabel" text="房间id" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" size="25" textColor="0xffffff" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="serverLabel" text="192.168.200.50" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" size="25" textColor="0xFFFFFF" x="10" y="10" scaleX="1" scaleY="1"/>
+		<e:Group width="1000" height="25" x="314" y="35">
+			<e:Label id="gameMatchIdLabel" text="游戏id：xxxxxx" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" size="25" textColor="0xFFFFFF" x="439" y="-30" scaleX="1" scaleY="1"/>
+			<e:Label id="appVersionLabel" text="2.0.0" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" size="25" textColor="0xFFFFFF" x="449" y="-20" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="20"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="5" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="contentScroller" width="1000" height="200" horizontalCenter="0" bottom="0" touchEnabled="true">
+		<e:Group id="contentGroup">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

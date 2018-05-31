@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZBottomPlayerHandCardsUI" width="750" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="rearCardsGroup" anchorOffsetX="0" anchorOffsetY="0" width="100%" horizontalCenter="0" touchEnabled="false" touchChildren="false" top="0" height="150">
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		<ns1:DDZRearCardListView id="rearCardListView" width="750" height="150" x="145" y="81" skinName="DDZCardListUI"/>
+	</e:Group>
+	<e:Group id="handCardsGroup" height="300" bottom="0" width="100%" horizontalCenter="0" touchEnabled="false">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="top" gap="0" paddingLeft="0"/>
+		</e:layout>
+		<ns1:DDZHandCardListView id="handCardListView" width="750" height="177" x="444" y="59" skinName="DDZCardListUI" touchEnabled="false"/>
+	</e:Group>
+	<ns1:DDZRearCardView id="rearCardView" width="105" height="140" skinName="DDZRearCardUI" x="323" y="0" visible="false"/>
+	<e:Group id="bottomCardsGroup" width="500" height="141" anchorOffsetY="70" anchorOffsetX="250" horizontalCenter="0" top="-132" touchEnabled="false" touchChildren="false" visible="false">
+		<ns1:DDZRearCardView width="105" height="140" x="99" y="57" skinName="DDZRearCardUI"/>
+		<ns1:DDZRearCardView width="105" height="140" x="109" y="67" skinName="DDZRearCardUI"/>
+		<ns1:DDZRearCardView width="105" height="140" x="119" y="77" skinName="DDZRearCardUI"/>
+		<e:layout>
+			<e:HorizontalLayout gap="20" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

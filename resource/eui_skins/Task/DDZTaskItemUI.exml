@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZTaskItemUI" width="853" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" source="bg_task_list_cell@2x_png"/>
+	<e:Group width="106" height="107" left="20" verticalCenter="0">
+		<e:Image width="106" height="107" source="bg_task_reward@2x_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="awardImage" y="12" source="img_task_gold_reward@2x_png" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Label id="awardQuantityLabel" text="x500" size="20" textColor="0x7b4f35" horizontalCenter="0" bottom="2"/>
+	</e:Group>
+	<e:Button id="getAwardButton" label="" right="14" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_task_get_reward@2x_png" source.down="btn_task_get_reward_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="goButton" label="" right="14" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_task_go@2x_png" source.down="btn_task_go_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="400" height="100" verticalCenter="0" left="155">
+		<e:Label id="titleLabel" text="我是标题" size="23" textAlign="right" top="15" left="147" textColor="0x8c674f" x="-20" y="2" scaleX="1" scaleY="1"/>
+		<ns1:DDZTaskProgressBar id="progressBar" x="44" y="53" skinName="DDZTaskProgressBarUI" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout gap="10" horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

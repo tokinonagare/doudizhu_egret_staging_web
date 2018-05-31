@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZTaskPopupUI" width="1239" height="684" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" x="0" y="0" source="bg_task@2x_png"/>
+	<ns1:DDZPopupCloseButton id="closeButton" width="90" height="90" right="-35" top="9" skinName="DDZPopupCloseButtonUI"/>
+	<ns1:DDZEmptyContentView id="emptyContentView" skinName="DDZEmptyContentUI" right="78" bottom="73"/>
+	<e:Scroller id="contentScroller" width="847" height="530" right="40" bottom="40" scrollPolicyH="off">
+		<e:Group>
+			<e:List id="contentList" width="100%" height="100%" x="0" y="0">
+				<e:layout>
+					<e:TileLayout orientation="columns" columnWidth="847" requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:TabBar id="leftTabbar" width="257" height="531" left="40" top="114">
+		<e:layout>
+			<e:VerticalLayout gap="10" horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

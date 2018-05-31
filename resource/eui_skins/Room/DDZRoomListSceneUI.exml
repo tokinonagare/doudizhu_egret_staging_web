@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRoomListSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" width="1334" height="750" source="bg_home_jpg"/>
+	<e:Group id="roomListGroup" left="0" right="0" top="100" bottom="0">
+		<e:List id="roomList" width="1334" height="650" x="1" y="176.22" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="DDZRoomUI">
+			<e:layout>
+				<e:TileLayout orientation="rows" paddingLeft="50" paddingRight="50" paddingBottom="50" paddingTop="50" horizontalGap="100" verticalGap="20"/>
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+	</e:Group>
+	<ns1:DDZRoomTopToolbar id="topToolbar" skinName="DDZRoomTopToolbarUI" horizontalCenter="0" top="0"/>
+</e:Skin>

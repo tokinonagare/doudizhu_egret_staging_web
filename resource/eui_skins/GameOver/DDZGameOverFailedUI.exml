@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZGameOverFailedUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="719" height="585" horizontalCenter="0" top="0" source="bg_game_over_failed@2x_png"/>
+	<ns1:DDZGameOverPlayerInfo id="bottomPlayerInfo" width="500" height="60" skinName="DDZGameOverPlayInfoUI" horizontalCenter="10" top="305"/>
+	<ns1:DDZGameOverPlayerInfo id="leftPlayerInfo" width="500" height="60" skinName="DDZGameOverPlayInfoUI" horizontalCenter="10" top="357"/>
+	<ns1:DDZGameOverPlayerInfo id="rightPlayerInfo" width="500" height="60" skinName="DDZGameOverPlayInfoUI" horizontalCenter="10" top="409"/>
+	<e:Group id="buttonsGroup" width="600" height="100" horizontalCenter="9" bottom="122">
+		<e:Button id="continueButton" label="" bottom="109" horizontalCenter="126" x="480" y="-25" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_game_over_continue@2x_png" source.down="btn_game_over_continue_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="20" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="characterImage" source="img_male_landlord_cry_png" right="946" bottom="220"/>
+</e:Skin>

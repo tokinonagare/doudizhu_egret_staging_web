@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZTaskTabbarItemUI" width="249" height="110" states="down,up" width.down="284" height.down="110" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" x="0" y="0" source="btn_task_classification@2x_png" source.down="btn_task_classification_on@2x_png"/>
+	<e:Label id="titleLabel" text="每日任务" textColor="0x884734" verticalCenter="0" left="61" size="32" strokeColor="0xf8ecd9" stroke="4" size.down="32" strokeColor.down="0x8c4433" stroke.down="4" textColor.down="0xf0e7e7" verticalCenter.down="0" left.down="61" />
+</e:Skin>

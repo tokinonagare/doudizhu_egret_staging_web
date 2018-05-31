@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QPToastUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="messageBackground" width="200" height="40" horizontalCenter="0" verticalCenter="0" fillAlpha="0.9" strokeAlpha="0.9" fillColor="0x464646" ellipseHeight="10" ellipseWidth="10"/>
+	<e:Label id="messageLabel" text="连接网络中" horizontalCenter="0" verticalCenter="0" size="26" bold="true"/>
+</e:Skin>

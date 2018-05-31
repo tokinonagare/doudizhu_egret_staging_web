@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZStoreTopToolbarUI" width="1334" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="1334" height="107" x="0" y="0" source="bg_store_top_toolbar@2x_png"/>
+	<e:Button id="backButton" label="" left="20" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_back@2x_png" source.down="btn_back_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:DDZCoinWareHouse id="coinWareHouse" skinName="DDZCoinWareHouseUI" right="389" verticalCenter="0"/>
+	<ns1:DDZDiamondWareHouse id="diamondWareHouse" skinName="DDZDiamondWareHouseUI" right="38" verticalCenter="0" visible="false"/>
+	<e:Label text="商城" textColor="0xfffcf7" strokeColor="0x514734" stroke="1" verticalCenter="0" left="228" size="35" bold="true"/>
+</e:Skin>

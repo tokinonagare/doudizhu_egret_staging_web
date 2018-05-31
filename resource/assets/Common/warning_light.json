@@ -1,0 +1,34 @@
+{"mc":{
+	"shine":{
+		"frameRate":6,
+		"labels":[
+			{"name":"shine","frame":1,"end":3}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"img_play_game_warning_light_1@2x",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"img_play_game_warning_light_2@2x",
+			"x":48,
+			"y":15
+			},
+			{
+			"res":"img_play_game_warning_light_3@2x",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"img_play_game_warning_light_3@2x":{"x":1,"y":1,"w":168,"h":100},
+		"img_play_game_warning_light_1@2x":{"x":1,"y":103,"w":168,"h":100},
+		"img_play_game_warning_light_2@2x":{"x":171,"y":1,"w":73,"h":85}
+	}}

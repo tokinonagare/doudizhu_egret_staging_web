@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPackagePopupUI" height="685" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1246">
+	<e:Image width="100%" height="100%" source="bg_package_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="toggleGroup" width="657" height="79" horizontalCenter="0" top="105">
+		<e:ToggleButton id="leftToggle" label="奖券" scaleX="1" scaleY="1" left="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toggle_package_left_png" source.down="toggle_package_left_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="middleToggle" label="道具" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toggle_package_middle_png" source.down="toggle_package_middle_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="rightToggle" label="领奖码" scaleX="1" scaleY="1" verticalCenter="0" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toggle_package_right_png" source.down="toggle_package_right_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Image id="contentBackground" width="1111" height="446" source="bg_package_content_png" horizontalCenter="0" bottom="46"/>
+	<ns1:DDZEmptyContentView id="emptyContentView" skinName="DDZEmptyContentUI" bottom="89" right="108"/>
+	<e:Scroller id="contentScroller" width="1058" height="389" bottom="74" horizontalCenter="0" scrollPolicyH="off">
+		<e:Group>
+			<e:List id="contentList" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+				<e:layout>
+					<e:TileLayout horizontalGap="30" verticalGap="20" orientation="columns" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="contentForeground" width="1111" height="446" source="fg_package_content_png" horizontalCenter="0" bottom="46" touchEnabled="false"/>
+	<ns1:DDZPopupCloseButton id="closeButton" width="90" height="90" skinName="DDZPopupCloseButtonUI" right="12" top="0"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RequestVerificationCodeSceneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16386c2acb3"/>
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xffffff"/>
+	<e:Button id="backButton" label="" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="ArrwoBackButtonUI"/>
+	<e:Label text="你的手机号码是多少?" y="259" bold="true" size="42" anchorOffsetY="0" height="46.97" horizontalCenter="0" textColor="0x171717"/>
+	<ns1:UnderLineTextInput id="phoneNumberInput" width="600" height="100" x="85" y="444" anchorOffsetX="0" anchorOffsetY="0" skinName="UnderLineTextInputUI"/>
+	<e:Label id="tipsLabel" text="我们将通过短信发送验证码。" x="85" y="571" size="24" width="600" textAlign="left" textColor="0x171717"/>
+	<e:Button id="continueButton" label="继续" y="800" horizontalCenter="0" skinName="RoundButtonUI" enabled="false">
+	</e:Button>
+</e:Skin>

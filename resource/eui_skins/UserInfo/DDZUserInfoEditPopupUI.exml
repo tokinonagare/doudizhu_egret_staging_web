@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserInfoEditPopupUI" width="686" height="418" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_userinfo_edit@2x_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="nicknameTitle" text="昵称：" textColor="0x6d540a" left="73" top="40"/>
+	<ns1:DDZUserInfoNameInput id="nameInput" skinName="DDZUserInfoNameInputUI" left="73" top="85"/>
+	<e:Label id="genderTitle" text="性别：" textColor="0x6D540A" left="73" top="179"/>
+	<e:Group id="maleGroup" width="150" height="50" left="73" verticalCenter="40">
+		<e:RadioButton id="maleRadioButton" label="" x="1" y="11">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_userinfo_radio@2x_png" source.down="btn_userinfo_radio_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Image x="46" y="18" source="img_userinfo_male@2x_png"/>
+		<e:Label text="男性" x="64" y="7" textColor="0x79614b" size="28"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="femaleGroup" width="150" height="50" left="291" verticalCenter="40">
+		<e:RadioButton id="femaleRadioButton" label="" x="1" y="11">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_userinfo_radio@2x_png" source.down="btn_userinfo_radio_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Image x="46" y="18" source="img_userinfo_female@2x_png"/>
+		<e:Label text="女性" x="64" y="7" textColor="0x79614B" size="28"/>
+		<e:layout>
+		<e:HorizontalLayout gap="10" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="buttonsGroup" width="600" height="100" horizontalCenter="0" bottom="22">
+		<e:Button id="cancelButton" label="" x="91" y="12" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_userinfo_cancel@2x_png" source.down="btn_userinfo_cancel_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="saveButton" label="" x="101" y="22" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_userinfo_save@2x_png" source.down="btn_userinfo_save_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

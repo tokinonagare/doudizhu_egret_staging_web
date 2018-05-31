@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZBindPhonePopupUI" width="928" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="bg_bind_account@2x_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="descriptionLabel" text="为U-ghigehigeh绑定手机号码" textColor="0x724526" size="26" strokeColor="0xbbaa95" stroke="1" verticalCenter="-145" horizontalCenter="0"/>
+	<ns1:DDZBindAccountTextInput id="phoneInput" width="660" height="70" skinName="DDZBindAccountTextInputUI" horizontalCenter="0" verticalCenter="-84"/>
+	<ns1:DDZBindAccountTextInput id="passwordInput" width="660" height="70" skinName="DDZBindAccountTextInputUI" horizontalCenter="0" verticalCenter="9"/>
+	<ns1:DDZBindAccountTextInput id="verificationCodeInput" width="400" height="70" skinName="DDZBindAccountTextInputUI" horizontalCenter="-128" verticalCenter="103"/>
+	<ns1:DDZGetVerificationCodeButton id="getVerificationCodeButton" label="" verticalCenter="106" right="88" skinName="DDZGetVerificationCodeButtonUI"/>
+	<e:Button id="bindButton" label="" horizontalCenter="0" verticalCenter="216">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_bind@2x_png" source.down="btn_bind_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

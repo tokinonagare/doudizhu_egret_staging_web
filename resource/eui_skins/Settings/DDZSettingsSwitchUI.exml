@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZSettingsSwitchUI" width="268" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="titleLabel" text="音乐" verticalCenter="0" left="0" size="32" textColor="0x977744" strokeColor="0xcbb89f" stroke="1"/>
+	<e:ToggleSwitch id="switch" label="" right="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="img_settings_switch_on@2x_png" source.down="img_settings_switch_off@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleSwitch>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPopupStoreTabbarItemUI" width="548" height="94" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,up"  width.down="547" height.down="94">
+	<e:Image id="downImage" includeIn="down" source="btn_popup_store_type_coin_on@2x_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="upImage" height="100%"  source.down="btn_play_game_store_type_on@2x_png" width.up="100%" height.up="100%" source="btn_popup_store_type_coin@2x_png" width="100%" horizontalCenter="0" verticalCenter="0" includeIn="up"/>
+</e:Skin>

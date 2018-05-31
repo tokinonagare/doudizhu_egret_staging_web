@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserDiamondInfoUI" width="200" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image verticalCenter="-2" left="10" source="img_userinfo_diamond@2x_png"/>
+	<e:Label id="diamondLabel" text="99938383" size="27" verticalCenter="0" left="58" textColor="0xde7a0d"/>
+</e:Skin>

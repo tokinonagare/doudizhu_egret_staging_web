@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZUserInfoPopupUI" width="750" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" x="0" y="0" source="bg_userinfo@2x_png"/>
+	<ns1:DDZUserInfoAvatar id="userAvatar" skinName="DDZUserInfoAvatarUI" left="35" top="86"/>
+	<e:Group id="basicInfoGroup" width="500" height="160" anchorOffsetX="0" anchorOffsetY="0" right="20" top="94">
+		<e:Group width="100%" height="30" horizontalCenter="0" top="0">
+			<e:Label id="nameLabel" text="会跳的小恐龙" scaleX="1" scaleY="1" size="32" left="0" top="10" x="-8" y="6" textColor="0x79614c"/>
+			<ns1:DDZUserInfoGenderView id="genderView" x="197" skinName="DDZUserInfoGenderUI" top="22"/>
+			<e:Button id="editUsernameButton" label="" top="10" right="60">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_userinfo_edit@2x_png" source.down="btn_userinfo_edit_on@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+			<e:HorizontalLayout gap="15" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="idLabel" text="ID: 1001111" scaleX="1" scaleY="1" size="27" left="0" top="49" textColor="0xbf9d75"/>
+		<ns1:DDZUserCoinInfoView id="coinInfoView" skinName="DDZUserCoinInfoUI" bottom="0" left="0"/>
+		<ns1:DDZUserDiamondInfoView id="diamondInfoView" skinName="DDZUserDiamondInfoUI" right="72" bottom="10" visible="false"/>
+		<e:Button id="bindPhoneButton" label="" right="23" verticalCenter="-16.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_userinfo_bind@2x_png" source.down="btn_userinfo_bind_on@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="userDataGroup" width="765" height="120" horizontalCenter="0" verticalCenter="163" visible="false">
+		<ns1:DDZUserInfoGameDataView id="totalGame" width="200" height="50" skinName="DDZUserInfoGameDataUI" bottom="205" horizontalCenter="-262" x="32" y="-6" scaleX="1" scaleY="1"/>
+		<ns1:DDZUserInfoGameDataView id="winningRate" width="200" height="50" skinName="DDZUserInfoGameDataUI" horizontalCenter="0" bottom="205" x="294" y="-6" scaleX="1" scaleY="1"/>
+		<ns1:DDZUserInfoGameDataView id="escapeRate" width="200" height="50" skinName="DDZUserInfoGameDataUI" horizontalCenter="262" bottom="205" x="556.0000000000001" y="-6" scaleX="1" scaleY="1"/>
+		<ns1:DDZUserInfoGameDataView id="winningAmount" width="200" height="50" skinName="DDZUserInfoGameDataUI" bottom="157" horizontalCenter="-262" x="32" y="42.00000000000006" scaleX="1" scaleY="1"/>
+		<ns1:DDZUserInfoGameDataView id="continueWinningAmount" width="200" height="50" skinName="DDZUserInfoGameDataUI" bottom="157" horizontalCenter="0" x="294" y="42.00000000000006" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="80" orientation="rows" horizontalAlign="center" verticalAlign="middle" verticalGap="5"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="switchAccountButton" label="" bottom="43" left="162" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_userinfo_switch_account_png" source.down="btn_userinfo_switch_account_selected_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="signOutButton" label="" left="41" top="264" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_userinfo_sign_out@2x_png" source.down="btn_userinfo_sign_out_on@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:DDZPopupCloseButton id="closeButton" skinName="DDZGrayPopupCloseButtonUI" right="14" top="6"/>
+</e:Skin>
