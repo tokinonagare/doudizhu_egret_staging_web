@@ -23,10 +23,6 @@
       "spec": {
         "containers": [
           {
-            "command": [
-              "npm",
-              "start"
-            ],
             "image": "#{image}",
             "name": "bulletin-board",
             "ports": [
