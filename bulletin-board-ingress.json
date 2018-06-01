@@ -2,15 +2,29 @@
   "apiVersion": "extensions/v1beta1",
   "kind": "Ingress",
   "metadata": {
-    "name": "bulletin-board-ingress"
+    "name": "bulletin-board-ingress",
+    "annotations": {
+      "kubernetes.io/ingress.class": "nginx",
+      "kubernetes.io/tls-acme": "true"
+    }
   },
   "spec": {
     "backend": {
       "serviceName": "bulletin-board-service",
       "servicePort": 8080
     },
+    "type": "ClusterIP",
     "rules": [
       {
+        "host": "gocd.shafayouxi.org",
+        "tls": [
+          {
+            "secretName": "bulletin-board-tls",
+            "hosts": [
+                "gocd.shafayouxi.org"
+            ]
+          }
+        ],
         "http": {
           "paths": [
             {
