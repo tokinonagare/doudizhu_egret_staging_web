@@ -27,7 +27,7 @@
             "name": "bulletin-board",
             "ports": [
               {
-                "containerPort": 8080,
+                "containerPort": 8143,
                 "protocol": "TCP"
               }
             ]

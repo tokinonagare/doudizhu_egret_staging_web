@@ -11,7 +11,7 @@
   "spec": {
     "backend": {
       "serviceName": "bulletin-board-service",
-      "servicePort": 8080
+      "servicePort": 8143
     },
     "type": "ClusterIP",
     "rules": [
@@ -30,7 +30,7 @@
             {
               "backend": {
                 "serviceName": "bulletin-board-service",
-                "servicePort": 8080
+                "servicePort": 8143
               },
               "path": "/bulletin-board"
             }
