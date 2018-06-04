@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DDZAccountRegisterSceneUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Image x="0" y="0" source="bg_launch_game@2x_jpg"/>
-	<ns1:DDZTransparentCover skinName="DDZTransparentCoverUI" horizontalCenter="0" verticalCenter="0"/>
-	<e:Button id="backButton" label="" skinName="DDZBackButtonUI" left="20" top="20"/>
-	<ns1:DDZAccountRegisterPopup id="popup" skinName="DDZAccountRegisterPopupUI" horizontalCenter="0" verticalCenter="0"/>
-</e:Skin>

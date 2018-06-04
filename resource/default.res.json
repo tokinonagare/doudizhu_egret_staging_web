@@ -53,15 +53,11 @@
 			"name": "ddz_user_info_image"
 		},
 		{
-			"keys": "bg_agreement@2x_png,btn_agreement_accept@2x_png,btn_agreement_accept_on@2x_png,btn_agreement_check@2x_png,btn_agreement_check_on@2x_png,btn_agreement_ok@2x_png,btn_agreement_ok_on@2x_png,btn_agreement_refuse@2x_png,btn_agreement_refuse_on@2x_png,btn_sign_in_account@2x_png,btn_sign_in_account_on@2x_png,btn_sign_in_tourists@2x_png,btn_sign_in_tourists_on@2x_png,btn_user_agreement@2x_png,btn_user_agreement_on@2x_png,img_agreement_readed@2x_png,bg_account_sign_in@2x_png,btn_forget_password@2x_png,btn_quick_register@2x_png,btn_sign_in@2x_png,btn_sign_in_on@2x_png,bg_account_register@2x_png,btn_register@2x_png,btn_register_on@2x_png",
-			"name": "ddz_user_agreement_image"
-		},
-		{
 			"keys": "bg_middle_room@2x_png,bg_normal_room@2x_png,bg_primary_room@2x_png,bg_rookie_room@2x_png,bg_room_top_toolbar@2x_png,bg_senior_room@2x_png,bg_top_room@2x_png,btn_room_quick_start@2x_png,btn_room_quick_start_on@2x_png,icon_room_player_count@2x_png,img_middle_room_name@2x_png,img_normal_room_name@2x_png,img_primary_room_name@2x_png,img_rookie_room_name@2x_png,img_senior_room_name@2x_png,img_top_room_name@2x_png,icon_room_balance_require@2x_png,img_room_selected_border@2x_png",
 			"name": "ddz_room_image"
 		},
 		{
-			"keys": "btn_not_call_landlord_on@2x_png,btn_invite_on@2x_png,btn_invite@2x_png,btn_continue_game_on@2x_png,btn_continue_game@2x_png,bg_friends_search@2x_png",
+			"keys": "btn_not_call_landlord_on@2x_png,btn_invite_on@2x_png,btn_invite@2x_png,btn_continue_game_on@2x_png,btn_continue_game@2x_png",
 			"name": "preload"
 		}
 	],
@@ -1972,86 +1968,6 @@
 			"name": "btn_store_goods_purchase_on@2x_png"
 		},
 		{
-			"url": "assets/UserAgreement/bg_agreement@2x.png",
-			"type": "image",
-			"name": "bg_agreement@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_accept@2x.png",
-			"type": "image",
-			"name": "btn_agreement_accept@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_accept_on@2x.png",
-			"type": "image",
-			"name": "btn_agreement_accept_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_check@2x.png",
-			"type": "image",
-			"name": "btn_agreement_check@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_check_on@2x.png",
-			"type": "image",
-			"name": "btn_agreement_check_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_ok@2x.png",
-			"type": "image",
-			"name": "btn_agreement_ok@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_ok_on@2x.png",
-			"type": "image",
-			"name": "btn_agreement_ok_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_refuse@2x.png",
-			"type": "image",
-			"name": "btn_agreement_refuse@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_agreement_refuse_on@2x.png",
-			"type": "image",
-			"name": "btn_agreement_refuse_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_sign_in_account@2x.png",
-			"type": "image",
-			"name": "btn_sign_in_account@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_sign_in_account_on@2x.png",
-			"type": "image",
-			"name": "btn_sign_in_account_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_sign_in_tourists@2x.png",
-			"type": "image",
-			"name": "btn_sign_in_tourists@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_sign_in_tourists_on@2x.png",
-			"type": "image",
-			"name": "btn_sign_in_tourists_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_user_agreement@2x.png",
-			"type": "image",
-			"name": "btn_user_agreement@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/btn_user_agreement_on@2x.png",
-			"type": "image",
-			"name": "btn_user_agreement_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/img_agreement_readed@2x.png",
-			"type": "image",
-			"name": "img_agreement_readed@2x_png"
-		},
-		{
 			"url": "assets/Home/btn_home_quick_start@2x.png",
 			"type": "image",
 			"name": "btn_home_quick_start@2x_png"
@@ -2672,46 +2588,6 @@
 			"name": "img_room_selected_border@2x_png"
 		},
 		{
-			"url": "assets/UserAgreement/AccountSignIn/bg_account_sign_in@2x.png",
-			"type": "image",
-			"name": "bg_account_sign_in@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountSignIn/btn_forget_password@2x.png",
-			"type": "image",
-			"name": "btn_forget_password@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountSignIn/btn_quick_register@2x.png",
-			"type": "image",
-			"name": "btn_quick_register@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountSignIn/btn_sign_in@2x.png",
-			"type": "image",
-			"name": "btn_sign_in@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountSignIn/btn_sign_in_on@2x.png",
-			"type": "image",
-			"name": "btn_sign_in_on@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountRegister/bg_account_register@2x.png",
-			"type": "image",
-			"name": "bg_account_register@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountRegister/btn_register@2x.png",
-			"type": "image",
-			"name": "btn_register@2x_png"
-		},
-		{
-			"url": "assets/UserAgreement/AccountRegister/btn_register_on@2x.png",
-			"type": "image",
-			"name": "btn_register_on@2x_png"
-		},
-		{
 			"url": "assets/UserInfo/BindAccount/btn_bind@2x.png",
 			"type": "image",
 			"name": "btn_bind@2x_png"
@@ -2775,11 +2651,6 @@
 			"url": "assets/PlayGame/InvitePlayer/image_copy_complete@2x.png",
 			"type": "image",
 			"name": "image_copy_complete@2x_png"
-		},
-		{
-			"name": "bg_friends_search@2x_png",
-			"type": "image",
-			"url": "assets/Friends/bg_friends_search@2x.png"
 		},
 		{
 			"url": "assets/Common/btn_round@2x.png",

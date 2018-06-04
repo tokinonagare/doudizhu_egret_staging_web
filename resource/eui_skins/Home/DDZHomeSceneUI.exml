@@ -21,4 +21,5 @@
 			</e:skinName>
 		</e:Button>
 	</e:Group>
+	<e:Label id="stateLabel" text="Label" x="82.61" y="747"/>
 </e:Skin>
