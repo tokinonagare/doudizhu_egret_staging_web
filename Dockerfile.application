@@ -1,5 +1,3 @@
 FROM nginx:alpine
 
-EXPOSE 8143
-
 COPY . /usr/share/nginx/html
