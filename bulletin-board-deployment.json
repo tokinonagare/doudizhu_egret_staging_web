@@ -35,7 +35,7 @@
         "containers": [
           {
             "name": "doudizhu-web-server",
-            "image": "tokinonagare/bulletin-board:10",
+            "image": "#{image}",
             "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
