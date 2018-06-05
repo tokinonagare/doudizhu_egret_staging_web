@@ -21,18 +21,6 @@
 			"name": "ddz_common_image"
 		},
 		{
-			"keys": "img_landlord_hat_png,img_male_farmer_cry_png,img_female_farmer_cry_png,img_male_landlord_cry_png,img_female_landlord_cry_png,img_male_landlord_laugh_png,bg_game_over_failed@2x_png,bg_game_over_success@2x_png,btn_game_over_continue@2x_png,btn_game_over_continue_on@2x_png",
-			"name": "ddz_game_over_image"
-		},
-		{
-			"keys": "bg_mail_scene@2x_png,bg_mail_list_cell@2x_png,icon_mail@2x_png,img_mail_not_read_sign@2x_png,bg_mail_details@2x_png",
-			"name": "ddz_mail_image"
-		},
-		{
-			"keys": "bg_package_png,bg_package_content_png,bg_package_item_png,btn_use_png,fg_package_content_png,icon_package_item_png,toggle_package_left_png,toggle_package_left_on_png,toggle_package_middle_png,toggle_package_middle_on_png,toggle_package_right_png,toggle_package_right_on_png",
-			"name": "ddz_package_image"
-		},
-		{
 			"keys": "btn_chat_png,icon_times_png,btn_package_png,btn_package_selected_png,btn_task_png,btn_task_selected_png,img_wrong_card_type_png,poker_2c@2x_png,poker_2d@2x_png,poker_2h@2x_png,poker_2s@2x_png,poker_3c@2x_png,poker_3d@2x_png,poker_3h@2x_png,poker_3s@2x_png,poker_4c@2x_png,poker_4d@2x_png,poker_4h@2x_png,poker_4s@2x_png,poker_5c@2x_png,poker_5d@2x_png,poker_5h@2x_png,poker_5s@2x_png,poker_6c@2x_png,poker_6d@2x_png,poker_6h@2x_png,poker_6s@2x_png,poker_7c@2x_png,poker_7d@2x_png,poker_7h@2x_png,poker_7s@2x_png,poker_8c@2x_png,poker_8d@2x_png,poker_8h@2x_png,poker_8s@2x_png,poker_9c@2x_png,poker_9d@2x_png,poker_9h@2x_png,poker_9s@2x_png,poker_ac@2x_png,poker_ad@2x_png,poker_ah@2x_png,poker_as@2x_png,poker_back@2x_png,poker_bw@2x_png,poker_jc@2x_png,poker_jd@2x_png,poker_jh@2x_png,poker_js@2x_png,poker_kc@2x_png,poker_kd@2x_png,poker_kh@2x_png,poker_ks@2x_png,poker_qc@2x_png,poker_qd@2x_png,poker_qh@2x_png,poker_qs@2x_png,poker_rw@2x_png,poker_tc@2x_png,poker_td@2x_png,poker_th@2x_png,poker_ts@2x_png,played_poker_2c@2x_png,played_poker_2d@2x_png,played_poker_2h@2x_png,played_poker_2s@2x_png,played_poker_3c@2x_png,played_poker_3d@2x_png,played_poker_3h@2x_png,played_poker_3s@2x_png,played_poker_4c@2x_png,played_poker_4d@2x_png,played_poker_4h@2x_png,played_poker_4s@2x_png,played_poker_5c@2x_png,played_poker_5d@2x_png,played_poker_5h@2x_png,played_poker_5s@2x_png,played_poker_6c@2x_png,played_poker_6d@2x_png,played_poker_6h@2x_png,played_poker_6s@2x_png,played_poker_7c@2x_png,played_poker_7d@2x_png,played_poker_7h@2x_png,played_poker_7s@2x_png,played_poker_8c@2x_png,played_poker_8d@2x_png,played_poker_8h@2x_png,played_poker_8s@2x_png,played_poker_9c@2x_png,played_poker_9d@2x_png,played_poker_9h@2x_png,played_poker_9s@2x_png,played_poker_ac@2x_png,played_poker_ad@2x_png,played_poker_ah@2x_png,played_poker_as@2x_png,played_poker_bw@2x_png,played_poker_jc@2x_png,played_poker_jd@2x_png,played_poker_jh@2x_png,played_poker_js@2x_png,played_poker_kc@2x_png,played_poker_kd@2x_png,played_poker_kh@2x_png,played_poker_ks@2x_png,played_poker_qc@2x_png,played_poker_qd@2x_png,played_poker_qh@2x_png,played_poker_qs@2x_png,played_poker_rw@2x_png,played_poker_tc@2x_png,played_poker_td@2x_png,played_poker_th@2x_png,played_poker_ts@2x_png,bg_play_game_player_info_popup_png,img_hand_card_landlord_sign@2x_png,img_played_card_landlord_sign@2x_png,btn_play_game_store_type@2x_png,bg_popup_store@2x_png,btn_popup_store_type_coin_on@2x_png,btn_popup_store_type_diamond_on@2x_png,btn_popup_store_type_coin@2x_png,btn_popup_store_type_diamond@2x_png,btn_call_landlord_1@2x_png,btn_call_landlord_1_disable@2x_png,btn_call_landlord_1_on@2x_png,btn_call_landlord_2@2x_png,btn_call_landlord_2_disable@2x_png,btn_call_landlord_2_on@2x_png,btn_call_landlord_3@2x_png,btn_call_landlord_3_disable@2x_png,btn_call_landlord_3_on@2x_png,btn_hint@2x_png,btn_hint_on@2x_png,btn_not_add_times@2x_png,btn_not_add_times_on@2x_png,btn_not_call_landlord@2x_png,btn_not_play@2x_png,btn_not_play_on@2x_png,btn_play@2x_png,btn_play_disable@2x_png,btn_play_on@2x_png,btn_show_cards_start_game@2x_png,btn_show_cards_start_game_on@2x_png,btn_start_game@2x_png,btn_start_game_on@2x_png,btn_yao_bu_qi@2x_png,btn_yao_bu_qi_on@2x_png,bg_play_game@2x_jpg,bg_clock@2x_png,btn_settings@2x_png,btn_settings_on@2x_png,bg_play_game_top_left_toolbar@2x_png,bg_play_game_top_right_toolbar@2x_png,bg_3_landlord_cards@2x_png,img_female_farmer@2x_png,img_female_landlord@2x_png,img_male_farmer@2x_png,img_male_landlord@2x_png,bg_play_game_player_info@2x_png,icon_play_game_coin@2x_png,bg_play_game_coin_warehouse@2x_png,btn_play_game_add_coin@2x_png,bg_play_game_bottom_toolbar@2x_png,img_two_point@2x_png,img_three_point@2x_png,img_one_point@2x_png,img_not_play@2x_png,img_not_call_landlord@2x_png,img_not_add_times@2x_png,img_no_bigger_cards@2x_png,img_add_times@2x_png,img_wait_for_starting_png,bg_invite_player@2x_png,btn_invite_player_to_wechat@2x_png,image_copy_complete@2x_png",
 			"name": "ddz_play_game_image"
 		},
@@ -41,20 +29,8 @@
 			"name": "ddz_settings_image"
 		},
 		{
-			"keys": "btn_mall_good_type_png,btn_mall_good_type_on_png,icon_store_diamond@2x_png,bg_store_goods_list@2x_png,bg_store_top_toolbar@2x_png,btn_store_coin@2x_png,btn_store_coin_on@2x_png,btn_store_diamond@2x_png,btn_store_diamond_on@2x_png,btn_store_goods_purchase@2x_png,bg_store_goods@2x_png,img_store_coins_1@2x_png,img_store_coins_2@2x_png,img_store_coins_3@2x_png,img_store_coins_4@2x_png,img_store_coins_5@2x_png,img_store_coins_6@2x_png,img_store_diamonds_1@2x_png,img_store_diamonds_2@2x_png,img_store_diamonds_3@2x_png,img_store_diamonds_4@2x_png,img_store_diamonds_5@2x_png,img_store_diamonds_6@2x_png,btn_store_goods_purchase_on@2x_png",
-			"name": "ddz_store_image"
-		},
-		{
-			"keys": "bg_task@2x_png,bg_task_list_cell@2x_png,bg_task_progressbar@2x_png,btn_task_classification@2x_png,btn_task_classification_on@2x_png,btn_task_go@2x_png,fg_task_progressbar@2x_png,img_task_processing@2x_png,btn_task_get_reward@2x_png,btn_task_get_reward_on@2x_png,btn_task_go_on@2x_png,img_task_gold_reward@2x_png,bg_task_reward@2x_png",
-			"name": "ddz_task_image"
-		},
-		{
 			"keys": "btn_userinfo_switch_account_png,btn_userinfo_switch_account_selected_png,bg_userinfo@2x_png,btn_userinfo_cancel@2x_png,btn_userinfo_cancel_on@2x_png,btn_userinfo_edit@2x_png,btn_userinfo_edit_on@2x_png,btn_userinfo_save@2x_png,btn_userinfo_save_on@2x_png,btn_userinfo_sign_out@2x_png,btn_userinfo_sign_out_on@2x_png,img_userinfo_avatar_border@2x_png,img_userinfo_default_avatar@2x_png,img_userinfo_female@2x_png,img_userinfo_male@2x_png,img_userinfo_coin@2x_png,img_userinfo_diamond@2x_png,btn_userinfo_radio@2x_png,btn_userinfo_radio_on@2x_png,bg_userinfo_edit@2x_png,bg_userinfo_textinput@2x_png,btn_userinfo_textinput_clean@2x_png,btn_userinfo_bind@2x_png,btn_userinfo_bind_on@2x_png,bg_bind_account@2x_png,bg_bind_account_input@2x_png,btn_bind@2x_png,btn_bind_on@2x_png",
 			"name": "ddz_user_info_image"
-		},
-		{
-			"keys": "bg_middle_room@2x_png,bg_normal_room@2x_png,bg_primary_room@2x_png,bg_rookie_room@2x_png,bg_room_top_toolbar@2x_png,bg_senior_room@2x_png,bg_top_room@2x_png,btn_room_quick_start@2x_png,btn_room_quick_start_on@2x_png,icon_room_player_count@2x_png,img_middle_room_name@2x_png,img_normal_room_name@2x_png,img_primary_room_name@2x_png,img_rookie_room_name@2x_png,img_senior_room_name@2x_png,img_top_room_name@2x_png,icon_room_balance_require@2x_png,img_room_selected_border@2x_png",
-			"name": "ddz_room_image"
 		},
 		{
 			"keys": "btn_not_call_landlord_on@2x_png,btn_invite_on@2x_png,btn_invite@2x_png,btn_continue_game_on@2x_png,btn_continue_game@2x_png",
@@ -98,11 +74,6 @@
 			"name": "btn_task_selected_png"
 		},
 		{
-			"url": "assets/GameOver/img_landlord_hat.png",
-			"type": "image",
-			"name": "img_landlord_hat_png"
-		},
-		{
 			"url": "assets/Home/bg_home.jpg",
 			"type": "image",
 			"name": "bg_home_jpg"
@@ -113,126 +84,6 @@
 			"name": "bg_home2_jpg"
 		},
 		{
-			"url": "assets/Package/bg_package_content.png",
-			"type": "image",
-			"name": "bg_package_content_png"
-		},
-		{
-			"url": "assets/Package/bg_package_item.png",
-			"type": "image",
-			"name": "bg_package_item_png"
-		},
-		{
-			"url": "assets/Package/bg_package.png",
-			"type": "image",
-			"name": "bg_package_png"
-		},
-		{
-			"url": "assets/Package/btn_use.png",
-			"type": "image",
-			"name": "btn_use_png"
-		},
-		{
-			"url": "assets/Package/fg_package_content.png",
-			"type": "image",
-			"name": "fg_package_content_png"
-		},
-		{
-			"url": "assets/Package/icon_package_item.png",
-			"type": "image",
-			"name": "icon_package_item_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_left.png",
-			"type": "image",
-			"name": "toggle_package_left_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_middle.png",
-			"type": "image",
-			"name": "toggle_package_middle_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_right.png",
-			"type": "image",
-			"name": "toggle_package_right_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_left_on.png",
-			"type": "image",
-			"name": "toggle_package_left_on_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_middle_on.png",
-			"type": "image",
-			"name": "toggle_package_middle_on_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_right_on.png",
-			"type": "image",
-			"name": "toggle_package_right_on_png"
-		},
-		{
-			"url": "assets/Package/bg_package.png",
-			"type": "image",
-			"name": "bg_package2_png"
-		},
-		{
-			"url": "assets/Package/bg_package_content.png",
-			"type": "image",
-			"name": "bg_package_content2_png"
-		},
-		{
-			"url": "assets/Package/bg_package_item.png",
-			"type": "image",
-			"name": "bg_package_item2_png"
-		},
-		{
-			"url": "assets/Package/btn_use.png",
-			"type": "image",
-			"name": "btn_use2_png"
-		},
-		{
-			"url": "assets/Package/fg_package_content.png",
-			"type": "image",
-			"name": "fg_package_content2_png"
-		},
-		{
-			"url": "assets/Package/icon_package_item.png",
-			"type": "image",
-			"name": "icon_package_item2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_left.png",
-			"type": "image",
-			"name": "toggle_package_left2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_left_on.png",
-			"type": "image",
-			"name": "toggle_package_left_on2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_middle.png",
-			"type": "image",
-			"name": "toggle_package_middle2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_middle_on.png",
-			"type": "image",
-			"name": "toggle_package_middle_on2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_right.png",
-			"type": "image",
-			"name": "toggle_package_right2_png"
-		},
-		{
-			"url": "assets/Package/toggle_package_right_on.png",
-			"type": "image",
-			"name": "toggle_package_right_on2_png"
-		},
-		{
 			"url": "assets/UserInfo/btn_userinfo_switch_account.png",
 			"type": "image",
 			"name": "btn_userinfo_switch_account_png"
@@ -241,16 +92,6 @@
 			"url": "assets/UserInfo/btn_userinfo_switch_account_selected.png",
 			"type": "image",
 			"name": "btn_userinfo_switch_account_selected_png"
-		},
-		{
-			"url": "assets/Store/btn_mall_good_type.png",
-			"type": "image",
-			"name": "btn_mall_good_type_png"
-		},
-		{
-			"url": "assets/Store/btn_mall_good_type_on.png",
-			"type": "image",
-			"name": "btn_mall_good_type_on_png"
 		},
 		{
 			"url": "sound/ddz/Common/btn_click.mp3",
@@ -621,31 +462,6 @@
 			"url": "sound/ddz/PlayGame/PlayCard/voice_yao_bu_qi.mp3",
 			"type": "sound",
 			"name": "voice_yao_bu_qi_mp3"
-		},
-		{
-			"url": "assets/GameOver/img_male_farmer_cry.png",
-			"type": "image",
-			"name": "img_male_farmer_cry_png"
-		},
-		{
-			"url": "assets/GameOver/img_female_farmer_cry.png",
-			"type": "image",
-			"name": "img_female_farmer_cry_png"
-		},
-		{
-			"url": "assets/GameOver/img_male_landlord_cry.png",
-			"type": "image",
-			"name": "img_male_landlord_cry_png"
-		},
-		{
-			"url": "assets/GameOver/img_female_landlord_cry.png",
-			"type": "image",
-			"name": "img_female_landlord_cry_png"
-		},
-		{
-			"url": "assets/GameOver/img_male_landlord_laugh.png",
-			"type": "image",
-			"name": "img_male_landlord_laugh_png"
 		},
 		{
 			"url": "sound/ddz/PlayGame/ddz_play_game_music.mp3",
@@ -1603,16 +1419,6 @@
 			"name": "warning_light_png"
 		},
 		{
-			"url": "assets/GameOver/bg_game_over_failed@2x.png",
-			"type": "image",
-			"name": "bg_game_over_failed@2x_png"
-		},
-		{
-			"url": "assets/GameOver/bg_game_over_success@2x.png",
-			"type": "image",
-			"name": "bg_game_over_success@2x_png"
-		},
-		{
 			"url": "assets/LaunchGame/bg_launch_game@2x.jpg",
 			"type": "image",
 			"name": "bg_launch_game@2x_jpg"
@@ -1656,36 +1462,6 @@
 			"url": "assets/PlayGame/PopupStore/bg_popup_store@2x.png",
 			"type": "image",
 			"name": "bg_popup_store@2x_png"
-		},
-		{
-			"url": "assets/Store/icon_store_diamond@2x.png",
-			"type": "image",
-			"name": "icon_store_diamond@2x_png"
-		},
-		{
-			"url": "assets/Mail/bg_mail_scene@2x.png",
-			"type": "image",
-			"name": "bg_mail_scene@2x_png"
-		},
-		{
-			"url": "assets/Mail/bg_mail_list_cell@2x.png",
-			"type": "image",
-			"name": "bg_mail_list_cell@2x_png"
-		},
-		{
-			"url": "assets/Mail/icon_mail@2x.png",
-			"type": "image",
-			"name": "icon_mail@2x_png"
-		},
-		{
-			"url": "assets/Mail/img_mail_not_read_sign@2x.png",
-			"type": "image",
-			"name": "img_mail_not_read_sign@2x_png"
-		},
-		{
-			"url": "assets/Mail/bg_mail_details@2x.png",
-			"type": "image",
-			"name": "bg_mail_details@2x_png"
 		},
 		{
 			"url": "config/iap_id_config.json",
@@ -1818,46 +1594,6 @@
 			"name": "img_empty_content@2x_png"
 		},
 		{
-			"url": "assets/Store/bg_store_goods_list@2x.png",
-			"type": "image",
-			"name": "bg_store_goods_list@2x_png"
-		},
-		{
-			"url": "assets/Store/bg_store_top_toolbar@2x.png",
-			"type": "image",
-			"name": "bg_store_top_toolbar@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_coin@2x.png",
-			"type": "image",
-			"name": "btn_store_coin@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_coin_on@2x.png",
-			"type": "image",
-			"name": "btn_store_coin_on@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_diamond@2x.png",
-			"type": "image",
-			"name": "btn_store_diamond@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_diamond_on@2x.png",
-			"type": "image",
-			"name": "btn_store_diamond_on@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_goods_purchase@2x.png",
-			"type": "image",
-			"name": "btn_store_goods_purchase@2x_png"
-		},
-		{
-			"url": "assets/Store/bg_store_goods@2x.png",
-			"type": "image",
-			"name": "bg_store_goods@2x_png"
-		},
-		{
 			"url": "assets/Common/bg_coin_warehouse@2x.png",
 			"type": "image",
 			"name": "bg_coin_warehouse@2x_png"
@@ -1871,66 +1607,6 @@
 			"url": "assets/Common/btn_goods_add@2x.png",
 			"type": "image",
 			"name": "btn_goods_add@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_1@2x.png",
-			"type": "image",
-			"name": "img_store_coins_1@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_2@2x.png",
-			"type": "image",
-			"name": "img_store_coins_2@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_3@2x.png",
-			"type": "image",
-			"name": "img_store_coins_3@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_4@2x.png",
-			"type": "image",
-			"name": "img_store_coins_4@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_5@2x.png",
-			"type": "image",
-			"name": "img_store_coins_5@2x_png"
-		},
-		{
-			"url": "assets/Store/coin/img_store_coins_6@2x.png",
-			"type": "image",
-			"name": "img_store_coins_6@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_1@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_1@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_2@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_2@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_3@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_3@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_4@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_4@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_5@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_5@2x_png"
-		},
-		{
-			"url": "assets/Store/diamond/img_store_diamonds_6@2x.png",
-			"type": "image",
-			"name": "img_store_diamonds_6@2x_png"
 		},
 		{
 			"url": "assets/Common/btn_back@2x.png",
@@ -1961,11 +1637,6 @@
 			"url": "assets/PlayGame/PopupStore/btn_popup_store_type_diamond@2x.png",
 			"type": "image",
 			"name": "btn_popup_store_type_diamond@2x_png"
-		},
-		{
-			"url": "assets/Store/btn_store_goods_purchase_on@2x.png",
-			"type": "image",
-			"name": "btn_store_goods_purchase_on@2x_png"
 		},
 		{
 			"url": "assets/Home/btn_home_quick_start@2x.png",
@@ -2076,71 +1747,6 @@
 			"url": "assets/Home/bg_home_game_board@2x.png",
 			"type": "image",
 			"name": "bg_home_game_board@2x_png"
-		},
-		{
-			"url": "assets/Task/bg_task@2x.png",
-			"type": "image",
-			"name": "bg_task@2x_png"
-		},
-		{
-			"url": "assets/Task/bg_task_list_cell@2x.png",
-			"type": "image",
-			"name": "bg_task_list_cell@2x_png"
-		},
-		{
-			"url": "assets/Task/bg_task_progressbar@2x.png",
-			"type": "image",
-			"name": "bg_task_progressbar@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_classification@2x.png",
-			"type": "image",
-			"name": "btn_task_classification@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_classification_on@2x.png",
-			"type": "image",
-			"name": "btn_task_classification_on@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_go@2x.png",
-			"type": "image",
-			"name": "btn_task_go@2x_png"
-		},
-		{
-			"url": "assets/Task/fg_task_progressbar@2x.png",
-			"type": "image",
-			"name": "fg_task_progressbar@2x_png"
-		},
-		{
-			"url": "assets/Task/img_task_processing@2x.png",
-			"type": "image",
-			"name": "img_task_processing@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_get_reward@2x.png",
-			"type": "image",
-			"name": "btn_task_get_reward@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_get_reward_on@2x.png",
-			"type": "image",
-			"name": "btn_task_get_reward_on@2x_png"
-		},
-		{
-			"url": "assets/Task/btn_task_go_on@2x.png",
-			"type": "image",
-			"name": "btn_task_go_on@2x_png"
-		},
-		{
-			"url": "assets/Task/img_task_gold_reward@2x.png",
-			"type": "image",
-			"name": "img_task_gold_reward@2x_png"
-		},
-		{
-			"url": "assets/Task/bg_task_reward@2x.png",
-			"type": "image",
-			"name": "bg_task_reward@2x_png"
 		},
 		{
 			"url": "assets/PlayGame/Button/btn_call_landlord_1@2x.png",
@@ -2363,16 +1969,6 @@
 			"name": "bg_settings@2x_png"
 		},
 		{
-			"url": "assets/GameOver/btn_game_over_continue@2x.png",
-			"type": "image",
-			"name": "btn_game_over_continue@2x_png"
-		},
-		{
-			"url": "assets/GameOver/btn_game_over_continue_on@2x.png",
-			"type": "image",
-			"name": "btn_game_over_continue_on@2x_png"
-		},
-		{
 			"url": "assets/UserInfo/btn_userinfo_bind@2x.png",
 			"type": "image",
 			"name": "btn_userinfo_bind@2x_png"
@@ -2496,96 +2092,6 @@
 			"url": "assets/PlayGame/Player/img_two_point@2x.png",
 			"type": "image",
 			"name": "img_two_point@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_middle_room@2x.png",
-			"type": "image",
-			"name": "bg_middle_room@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_normal_room@2x.png",
-			"type": "image",
-			"name": "bg_normal_room@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_primary_room@2x.png",
-			"type": "image",
-			"name": "bg_primary_room@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_rookie_room@2x.png",
-			"type": "image",
-			"name": "bg_rookie_room@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_room_top_toolbar@2x.png",
-			"type": "image",
-			"name": "bg_room_top_toolbar@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_senior_room@2x.png",
-			"type": "image",
-			"name": "bg_senior_room@2x_png"
-		},
-		{
-			"url": "assets/Room/bg_top_room@2x.png",
-			"type": "image",
-			"name": "bg_top_room@2x_png"
-		},
-		{
-			"url": "assets/Room/btn_room_quick_start@2x.png",
-			"type": "image",
-			"name": "btn_room_quick_start@2x_png"
-		},
-		{
-			"url": "assets/Room/btn_room_quick_start_on@2x.png",
-			"type": "image",
-			"name": "btn_room_quick_start_on@2x_png"
-		},
-		{
-			"url": "assets/Room/icon_room_player_count@2x.png",
-			"type": "image",
-			"name": "icon_room_player_count@2x_png"
-		},
-		{
-			"url": "assets/Room/img_middle_room_name@2x.png",
-			"type": "image",
-			"name": "img_middle_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/img_normal_room_name@2x.png",
-			"type": "image",
-			"name": "img_normal_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/img_primary_room_name@2x.png",
-			"type": "image",
-			"name": "img_primary_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/img_rookie_room_name@2x.png",
-			"type": "image",
-			"name": "img_rookie_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/img_senior_room_name@2x.png",
-			"type": "image",
-			"name": "img_senior_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/img_top_room_name@2x.png",
-			"type": "image",
-			"name": "img_top_room_name@2x_png"
-		},
-		{
-			"url": "assets/Room/icon_room_balance_require@2x.png",
-			"type": "image",
-			"name": "icon_room_balance_require@2x_png"
-		},
-		{
-			"url": "assets/Room/img_room_selected_border@2x.png",
-			"type": "image",
-			"name": "img_room_selected_border@2x_png"
 		},
 		{
 			"url": "assets/UserInfo/BindAccount/btn_bind@2x.png",
