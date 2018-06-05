@@ -2,33 +2,44 @@
   "apiVersion": "apps/v1beta2",
   "kind": "Deployment",
   "metadata": {
+    "name": "doudizhu-web-server",
     "labels": {
-      "app": "bulletin-board"
-    },
-    "name": "bulletin-board-deployment"
+      "app": "doudizhu-web",
+      "chart": "doudizhu-web-1.0",
+      "release": "doudizhu-web",
+      "heritage": "Tiller",
+      "component": "server"
+    }
   },
   "spec": {
     "replicas": 1,
+    "strategy": {
+      "type": "Recreate"
+    },
     "selector": {
       "matchLabels": {
-        "app": "bulletin-board"
+        "app": "doudizhu-web",
+        "release": "doudizhu-web",
+        "component": "server"
       }
     },
     "template": {
       "metadata": {
         "labels": {
-          "app": "bulletin-board"
+          "app": "doudizhu-web",
+          "release": "doudizhu-web",
+          "component": "server"
         }
       },
       "spec": {
         "containers": [
           {
-            "image": "#{image}",
-            "name": "bulletin-board",
+            "name": "doudizhu-web-server",
+            "image": "tokinonagare/bulletin-board:10",
+            "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
-                "containerPort": 8143,
-                "protocol": "TCP"
+                "containerPort": 80
               }
             ]
           }
