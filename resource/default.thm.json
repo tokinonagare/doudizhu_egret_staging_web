@@ -70,7 +70,7 @@
     },
     {
       "path": "resource/eui_skins/GameLaunch/GameLaunchSceneUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"GameLaunchSceneUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"bg_launch_game@2x_jpg\"/>\r\n\t<e:Image source=\"img_resource_loading@2x_png\" horizontalCenter=\"0\" bottom=\"80\"/>\r\n\t<e:ProgressBar id=\"progress\" horizontalCenter=\"0\" bottom=\"20\" value=\"0\" skinName=\"GameLaunchProgressUI\"/>\r\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"GameLaunchSceneUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"bg_launch_game@2x_jpg\"/>\r\n\t<e:Label id=\"descriptionLabel\" text=\"资源载入中...\" bottom=\"90\" horizontalCenter=\"0\"/>\r\n\t<e:ProgressBar id=\"progress\" horizontalCenter=\"0\" bottom=\"20\" value=\"0\" skinName=\"GameLaunchProgressUI\"/>\r\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/Home/DDZHomeBottomToolbarUI.exml",
