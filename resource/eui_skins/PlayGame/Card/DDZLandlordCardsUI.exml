@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DDZLandlordCardsUI" width="280" height="114" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Image horizontalCenter="0" verticalCenter="0" source="bg_3_landlord_cards@2x_png"/>
+<e:Skin class="DDZLandlordCardsUI" width="238" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
 		<ns1:DDZCardView id="cardOne" width="63" height="91" x="0" y="12" scaleX="1" scaleY="1" skinName="DDZCardUI"/>
 		<ns1:DDZCardView id="cardTwo" width="63" height="91" x="78.5" y="12" skinName="DDZCardUI" scaleX="1" scaleY="1"/>
