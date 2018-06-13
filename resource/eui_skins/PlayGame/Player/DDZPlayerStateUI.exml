@@ -7,4 +7,5 @@
 	<e:Image id="callOnePointImage" width="73" height="47" scaleX="1" scaleY="1" y="5" source="img_one_point@2x_png" horizontalCenter="0"/>
 	<e:Image id="callTwoPointImage" width="73" height="47" scaleX="1" scaleY="1" y="5" source="img_two_point@2x_png" horizontalCenter="0"/>
 	<e:Image id="callThreePointImage" width="73" height="47" scaleX="1" scaleY="1" y="5" source="img_three_point@2x_png" horizontalCenter="0"/>
+	<e:Label id="waitForReady" text="等待准备" textColor="0xf7c967" bold="true" horizontalCenter="0" verticalCenter="0"/>
 </e:Skin>
