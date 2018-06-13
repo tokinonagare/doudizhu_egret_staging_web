@@ -2,37 +2,39 @@
   "apiVersion": "extensions/v1beta1",
   "kind": "Ingress",
   "metadata": {
-    "name": "bulletin-board-ingress",
+    "name": "doudizhu-web-server",
+    "labels": {
+      "app": "doudizhu-web",
+      "chart": "doudizhu-web-1.0",
+      "release": "doudizhu-web",
+      "heritage": "Tiller",
+      "component": "server"
+    },
     "annotations": {
       "kubernetes.io/ingress.class": "nginx",
       "kubernetes.io/tls-acme": "true"
     }
   },
   "spec": {
-    "backend": {
-      "serviceName": "bulletin-board-service",
-      "servicePort": 8143
-    },
-    "type": "ClusterIP",
+    "tls": [
+      {
+        "hosts": [
+          "doudizhu.shafayouxi.org"
+        ],
+        "secretName": "doudizhu-tls"
+      }
+    ],
     "rules": [
       {
-        "host": "gocd.shafayouxi.org",
-        "tls": [
-          {
-            "secretName": "bulletin-board-tls",
-            "hosts": [
-                "gocd.shafayouxi.org"
-            ]
-          }
-        ],
+        "host": "doudizhu.shafayouxi.org",
         "http": {
           "paths": [
             {
+              "path": "/",
               "backend": {
-                "serviceName": "bulletin-board-service",
-                "servicePort": 8143
-              },
-              "path": "/bulletin-board"
+                "serviceName": "doudizhu-web-server",
+                "servicePort": 80
+              }
             }
           ]
         }
