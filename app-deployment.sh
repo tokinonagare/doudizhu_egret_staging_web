@@ -22,17 +22,17 @@ if [ $status_code == 200 ]; then
   echo "Updating deployment"
   curl --fail -H 'Content-Type: application/strategic-merge-patch+json' -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/apis/apps/v1beta2/namespaces/$NAMESPACE/deployments/doudizhu-web-server" \
-    -X PATCH -d @bulletin-board-deployment.json
+    -X PATCH -d @doudizhu-web-deployment.json
 else
  echo
  echo "Creating deployment"
  curl --fail -H 'Content-Type: application/json' -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/apis/apps/v1beta2/namespaces/$NAMESPACE/deployments" \
-    -X POST -d @bulletin-board-deployment.json
+    -X POST -d @doudizhu-web-deployment.json
 fi
 
 # status_code=$(curl -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
-#     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/api/v1/namespaces/$NAMESPACE/services/bulletin-board-service" \
+#     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/api/v1/namespaces/$NAMESPACE/services/doudizhu-web-service" \
 #     -X GET -o /dev/null -w "%{http_code}")
 
 # if [ $status_code == 404 ]; then
@@ -40,11 +40,11 @@ fi
 #  echo "Creating service"
 #  curl --fail -H 'Content-Type: application/json' -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
 #     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/api/v1/namespaces/$NAMESPACE/services" \
-#     -X POST -d @bulletin-board-service.json
+#     -X POST -d @doudizhu-web-service.json
 # fi
 
 # status_code=$(curl -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
-#     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/apis/extensions/v1beta1/namespaces/$NAMESPACE/ingresses/bulletin-board-ingress" \
+#     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/apis/extensions/v1beta1/namespaces/$NAMESPACE/ingresses/doudizhu-web-ingress" \
 #     -X GET -o /dev/null -w "%{http_code}")
 
 # if [ $status_code == 404 ]; then
@@ -52,5 +52,5 @@ fi
 #  echo "Creating ingress"
 #  curl --fail -H 'Content-Type: application/json' -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
 #     "https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_PORT_443_TCP_PORT/apis/extensions/v1beta1/namespaces/$NAMESPACE/ingresses" \
-#     -X POST -d @bulletin-board-ingress.json
+#     -X POST -d @doudizhu-web-ingress.json
 # fi
