@@ -5,10 +5,6 @@
 			"name": "ddz_launch_game"
 		},
 		{
-			"keys": "bg_home_jpg,btn_home_quick_start@2x_png,btn_home_quick_start_on@2x_png,btn_home_select_room@2x_png,btn_home_select_room_on@2x_png,bg_home_top_toolbar@2x_png,btn_home_check@2x_png,btn_home_check_on@2x_png,btn_home_settings@2x_png,btn_home_settings_on@2x_png,bg_home_bottom_toolbar@2x_png,btn_home_activity@2x_png,btn_home_activity_on@2x_png,btn_home_mail@2x_png,btn_home_mail_on@2x_png,btn_home_package@2x_png,btn_home_package_on@2x_png,btn_home_store@2x_png,btn_home_store_on@2x_png,btn_home_task@2x_png,btn_home_task_on@2x_png,img_home_landlord@2x_png,bg_home_game_board@2x_png",
-			"name": "ddz_home"
-		},
-		{
 			"keys": "btn_click_mp3,ddz_not_play_game_music_mp3",
 			"name": "ddz_common_music"
 		},
@@ -68,16 +64,6 @@
 			"url": "assets/PlayGame/TopToolbar/btn_task_selected.png",
 			"type": "image",
 			"name": "btn_task_selected_png"
-		},
-		{
-			"url": "assets/Home/bg_home.jpg",
-			"type": "image",
-			"name": "bg_home_jpg"
-		},
-		{
-			"url": "assets/Home/bg_home.jpg",
-			"type": "image",
-			"name": "bg_home2_jpg"
 		},
 		{
 			"url": "assets/UserInfo/btn_userinfo_switch_account.png",
@@ -1633,116 +1619,6 @@
 			"url": "assets/PlayGame/PopupStore/btn_popup_store_type_diamond@2x.png",
 			"type": "image",
 			"name": "btn_popup_store_type_diamond@2x_png"
-		},
-		{
-			"url": "assets/Home/btn_home_quick_start@2x.png",
-			"type": "image",
-			"name": "btn_home_quick_start@2x_png"
-		},
-		{
-			"url": "assets/Home/btn_home_quick_start_on@2x.png",
-			"type": "image",
-			"name": "btn_home_quick_start_on@2x_png"
-		},
-		{
-			"url": "assets/Home/btn_home_select_room@2x.png",
-			"type": "image",
-			"name": "btn_home_select_room@2x_png"
-		},
-		{
-			"url": "assets/Home/btn_home_select_room_on@2x.png",
-			"type": "image",
-			"name": "btn_home_select_room_on@2x_png"
-		},
-		{
-			"url": "assets/Home/TopToolbar/bg_home_top_toolbar@2x.png",
-			"type": "image",
-			"name": "bg_home_top_toolbar@2x_png"
-		},
-		{
-			"url": "assets/Home/TopToolbar/btn_home_check@2x.png",
-			"type": "image",
-			"name": "btn_home_check@2x_png"
-		},
-		{
-			"url": "assets/Home/TopToolbar/btn_home_check_on@2x.png",
-			"type": "image",
-			"name": "btn_home_check_on@2x_png"
-		},
-		{
-			"url": "assets/Home/TopToolbar/btn_home_settings@2x.png",
-			"type": "image",
-			"name": "btn_home_settings@2x_png"
-		},
-		{
-			"url": "assets/Home/TopToolbar/btn_home_settings_on@2x.png",
-			"type": "image",
-			"name": "btn_home_settings_on@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/bg_home_bottom_toolbar@2x.png",
-			"type": "image",
-			"name": "bg_home_bottom_toolbar@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_activity@2x.png",
-			"type": "image",
-			"name": "btn_home_activity@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_activity_on@2x.png",
-			"type": "image",
-			"name": "btn_home_activity_on@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_mail@2x.png",
-			"type": "image",
-			"name": "btn_home_mail@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_mail_on@2x.png",
-			"type": "image",
-			"name": "btn_home_mail_on@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_package@2x.png",
-			"type": "image",
-			"name": "btn_home_package@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_package_on@2x.png",
-			"type": "image",
-			"name": "btn_home_package_on@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_store@2x.png",
-			"type": "image",
-			"name": "btn_home_store@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_store_on@2x.png",
-			"type": "image",
-			"name": "btn_home_store_on@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_task@2x.png",
-			"type": "image",
-			"name": "btn_home_task@2x_png"
-		},
-		{
-			"url": "assets/Home/BottomToolbar/btn_home_task_on@2x.png",
-			"type": "image",
-			"name": "btn_home_task_on@2x_png"
-		},
-		{
-			"url": "assets/Home/img_home_landlord@2x.png",
-			"type": "image",
-			"name": "img_home_landlord@2x_png"
-		},
-		{
-			"url": "assets/Home/bg_home_game_board@2x.png",
-			"type": "image",
-			"name": "bg_home_game_board@2x_png"
 		},
 		{
 			"url": "assets/PlayGame/Button/btn_call_landlord_1@2x.png",
