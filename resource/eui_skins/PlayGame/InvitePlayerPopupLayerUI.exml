@@ -4,13 +4,45 @@
 	<e:Label text="您的私人房间已创建" textColor="0x000000" horizontalCenter="0" size="34" top="36"/>
 	<e:Label id="invitationMessageLabel" text="Label" anchorOffsetX="0" width="500" anchorOffsetY="0" height="130" textAlign="left" horizontalCenter="0" size="28" textColor="0x999999" top="87"/>
 	<e:Image width="222.66" height="134.68" source="image_copy_complete@2x_png" anchorOffsetX="0" anchorOffsetY="0" right="34" bottom="189"/>
-	<e:Label text="去微信粘贴" x="273.76" y="262.17" textColor="0x007aff"/>
-	<e:Button id="toWeChatButton" label="" x="197" y="255.67">
-		<e:skinName>
-			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" width.down="90%" height.down="90%" verticalCenter="0" horizontalCenter="0" source="btn_invite_player_to_wechat@2x_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-		</e:skinName>
-	</e:Button>
+	<e:Group width="100%" height="80" anchorOffsetX="0" horizontalCenter="0" bottom="80">
+		<e:Rect width="100%" height="1" x="66" y="9" fillColor="0x999999"/>
+		<e:Group id="toWeChatButton" width="100%" x="53" y="3" height="78" touchChildren="false" touchEnabled="false">
+			<e:Button label="" x="74.99999999999997" y="-111.00000000000003" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" width.down="90%" height.down="90%" verticalCenter="0" horizontalCenter="0" source="btn_invite_player_to_wechat@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label text="去微信粘贴" x="25" y="-61.99999999999997" textColor="0x007aff" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:HorizontalLayout gap="10" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Rect width="100%" height="1" x="76" y="19" fillColor="0x999999"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="toQQButton" width="100%" height="80" anchorOffsetX="0" horizontalCenter="0" bottom="0" visible="false">
+		<e:Rect width="100%" height="1" x="66" y="9" fillColor="0x999999"/>
+		<e:Group width="100%" x="53" y="3" height="78" touchChildren="false" touchEnabled="false">
+		<e:Button label="" x="74.99999999999997" y="-111.00000000000003">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_invite_player_to_qq@2x_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="去QQ粘贴" x="25" y="-61.99999999999997" textColor="0x007AFF" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:layout>
+		<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
 </e:Skin>
