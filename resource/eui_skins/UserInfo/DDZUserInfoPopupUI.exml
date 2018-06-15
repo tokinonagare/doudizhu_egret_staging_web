@@ -40,21 +40,5 @@
 			<e:TileLayout horizontalGap="80" orientation="rows" horizontalAlign="center" verticalAlign="middle" verticalGap="5"/>
 		</e:layout>
 	</e:Group>
-	<e:Button id="switchAccountButton" label="" bottom="43" left="162" visible="false">
-		<e:skinName>
-			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btn_userinfo_switch_account_png" source.down="btn_userinfo_switch_account_selected_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-		</e:skinName>
-	</e:Button>
-	<e:Button id="signOutButton" label="" left="41" top="264" height="60">
-		<e:skinName>
-			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btn_userinfo_sign_out@2x_png" source.down="btn_userinfo_sign_out_on@2x_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-		</e:skinName>
-	</e:Button>
 	<ns1:DDZPopupCloseButton id="closeButton" skinName="DDZGrayPopupCloseButtonUI" right="14" top="6"/>
 </e:Skin>

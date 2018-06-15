@@ -43,7 +43,6 @@
 	<ns1:DDZPlayedCardListView id="bottomPlayerPlayedCardListView" width="750" height="110" horizontalCenter="0" bottom="388"/>
 	<ns1:DDZBottomPlayerHandCardsView id="bottomPlayerHandCardsView" skinName="DDZBottomPlayerHandCardsUI" horizontalCenter="2" bottom="68"/>
 	<ns1:DDZPlayGameButtonsContainer id="playGameButtonsContainer" skinName="DDZPlayGameButtonsContainerUI" horizontalCenter="0" bottom="382"/>
-	<ns1:DDZTopToolbar id="topToolbar" skinName="DDZPlayGameTopToolbarUI" top="0" horizontalCenter="0" visible="false"/>
 	<ns1:DDZLandlordCardsView id="landlordCardsView" skinName="DDZLandlordCardsUI" horizontalCenter="0.5" top="84"/>
 	<ns1:DDZPlayerStateView id="bottomPlayerStateView" width="302" height="52" skinName="DDZPlayerStateUI" horizontalCenter="0" bottom="465"/>
 	<ns1:DDZPlayGameDebugWindow id="debugWindow" horizontalCenter="0" top="0" touchEnabled="true" touchChildren="true" skinName="DDZPlayGameDebugWindow2UI"/>
