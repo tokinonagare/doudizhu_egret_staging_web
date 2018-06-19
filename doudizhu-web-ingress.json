@@ -19,14 +19,14 @@
     "tls": [
       {
         "hosts": [
-          "doudizhu.shafayouxi.org"
+          "DOMAIN_PLACEHOLDER"
         ],
         "secretName": "doudizhu-tls"
       }
     ],
     "rules": [
       {
-        "host": "doudizhu.shafayouxi.org",
+        "host": "DOMAIN_PLACEHOLDER",
         "http": {
           "paths": [
             {
