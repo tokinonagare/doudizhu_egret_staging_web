@@ -5,4 +5,5 @@
 	<e:Label text="声音" textColor="0x8d5c2f" strokeColor="0xdbcabc" stroke="1" horizontalCenter="0" top="110"/>
 	<ns1:DDZSettingsSwitch id="musicSwitch" skinName="DDZSettingsSwitchUI" horizontalCenter="-200" verticalCenter="-38"/>
 	<ns1:DDZSettingsSwitch id="soundSwitch" skinName="DDZSettingsSwitchUI" horizontalCenter="200" verticalCenter="-38"/>
+	<e:Button label="离开房间" x="638" y="364" skinName="DDZBackButtonUI"/>
 </e:Skin>

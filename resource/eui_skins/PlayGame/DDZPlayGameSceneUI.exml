@@ -50,4 +50,5 @@
 		<e:Image id="wrongTypeCardImage" source="img_wrong_card_type_png" horizontalCenter="0" x="14" scaleX="1" scaleY="1" verticalCenter="0" visible="false"/>
 		<ns1:DDZMatchPlayerView id="matchPlayerView" skinName="DDZPlayGameMatchPlayerUI" horizontalCenter="0" verticalCenter="0" visible="false"/>
 	</e:Group>
+	<e:Button id="leaveGameButton" label="" skinName="DDZBackButtonUI" left="20" top="20"/>
 </e:Skin>
