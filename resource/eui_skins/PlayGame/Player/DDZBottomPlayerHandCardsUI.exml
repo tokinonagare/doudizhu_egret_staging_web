@@ -8,9 +8,10 @@
 	</e:Group>
 	<e:Group id="handCardsGroup" height="300" bottom="0" width="100%" horizontalCenter="0" touchEnabled="false">
 		<e:layout>
-		<e:HorizontalLayout horizontalAlign="center" verticalAlign="top" gap="0" paddingLeft="0"/>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="-60"/>
 		</e:layout>
-		<ns1:DDZHandCardListView id="handCardListView" width="750" height="177" x="444" y="59" skinName="DDZCardListUI" touchEnabled="false"/>
+		<ns1:DDZHandCardListView id="topHandCardListView" width="750" height="177" x="444" y="59" skinName="DDZCardListUI" touchEnabled="false"/>
+		<ns1:DDZHandCardListView id="bottomHandCardListView" width="750" height="177" x="0" y="123" skinName="DDZCardListUI" touchEnabled="false"/>
 	</e:Group>
 	<ns1:DDZRearCardView id="rearCardView" width="105" height="140" skinName="DDZRearCardUI" x="323" y="0" visible="false"/>
 	<e:Group id="bottomCardsGroup" width="500" height="141" anchorOffsetY="70" anchorOffsetX="250" horizontalCenter="0" top="-132" touchEnabled="false" touchChildren="false" visible="false">
