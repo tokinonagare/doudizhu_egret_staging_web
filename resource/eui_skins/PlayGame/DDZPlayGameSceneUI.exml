@@ -45,10 +45,10 @@
 	<ns1:DDZPlayGameButtonsContainer id="playGameButtonsContainer" skinName="DDZPlayGameButtonsContainerUI" horizontalCenter="0" bottom="382"/>
 	<ns1:DDZLandlordCardsView id="landlordCardsView" skinName="DDZLandlordCardsUI" horizontalCenter="0.5" top="84"/>
 	<ns1:DDZPlayerStateView id="bottomPlayerStateView" width="302" height="52" skinName="DDZPlayerStateUI" horizontalCenter="0" bottom="465"/>
-	<ns1:DDZPlayGameDebugWindow id="debugWindow" horizontalCenter="0" top="0" touchEnabled="true" touchChildren="true" skinName="DDZPlayGameDebugWindow2UI"/>
+	<ns1:DDZPlayGameDebugWindow id="debugWindow" horizontalCenter="0" top="0" touchEnabled="true" touchChildren="true" skinName="DDZPlayGameDebugWindow2UI" visible="false"/>
 	<e:Group id="infoGroup" width="350" height="100" horizontalCenter="0" bottom="453">
 		<e:Image id="wrongTypeCardImage" source="img_wrong_card_type_png" horizontalCenter="0" x="14" scaleX="1" scaleY="1" verticalCenter="0" visible="false"/>
 		<ns1:DDZMatchPlayerView id="matchPlayerView" skinName="DDZPlayGameMatchPlayerUI" horizontalCenter="0" verticalCenter="0" visible="false"/>
 	</e:Group>
-	<e:Button id="leaveGameButton" label="" skinName="DDZBackButtonUI" left="20" top="20"/>
+	<ns1:DDZPlayGameTopToolbar id="topToolbar" skinName="DDZPlayGameTopToolbarUI" right="0" top="0"/>
 </e:Skin>

@@ -13,11 +13,11 @@
 			"name": "ddz_other_music"
 		},
 		{
-			"keys": "btn_popup_close@2x_png,btn_popup_close_on@2x_png,btn_gray_popup_close@2x_png,btn_gray_popup_close_on@2x_png,btn_goods_add@2x_png,btn_back@2x_png,btn_back_on@2x_png,bg_popup_alert@2x_png,btn_alert_cancel@2x_png,btn_alert_cancel_on@2x_png,btn_alert_ok@2x_png,btn_alert_ok_on@2x_png,btn_alert_quit@2x_png,btn_alert_quit_on@2x_png,img_loading_circle@2x_png,img_loading_spade@2x_png",
+			"keys": "btn_popup_close@2x_png,btn_popup_close_on@2x_png,btn_gray_popup_close@2x_png,btn_gray_popup_close_on@2x_png,btn_goods_add@2x_png,btn_back@2x_png,btn_back_on@2x_png,btn_alert_cancel@2x_png,btn_alert_cancel_on@2x_png,btn_alert_ok@2x_png,btn_alert_ok_on@2x_png,img_loading_circle@2x_png,img_loading_spade@2x_png",
 			"name": "ddz_common_image"
 		},
 		{
-			"keys": "img_wrong_card_type_png,btn_call_landlord_1@2x_png,btn_call_landlord_1_disable@2x_png,btn_call_landlord_1_on@2x_png,btn_call_landlord_2@2x_png,btn_call_landlord_2_disable@2x_png,btn_call_landlord_2_on@2x_png,btn_call_landlord_3@2x_png,btn_call_landlord_3_disable@2x_png,btn_call_landlord_3_on@2x_png,btn_hint@2x_png,btn_hint_on@2x_png,btn_not_call_landlord@2x_png,btn_not_play@2x_png,btn_not_play_on@2x_png,btn_play@2x_png,btn_play_disable@2x_png,btn_play_on@2x_png,btn_show_cards_start_game@2x_png,btn_show_cards_start_game_on@2x_png,btn_start_game@2x_png,btn_start_game_on@2x_png,btn_yao_bu_qi@2x_png,btn_yao_bu_qi_on@2x_png,bg_play_game@2x_jpg,img_two_point@2x_png,img_three_point@2x_png,img_one_point@2x_png,img_not_play@2x_png,img_not_call_landlord@2x_png,img_not_add_times@2x_png,img_no_bigger_cards@2x_png,img_add_times@2x_png,img_wait_for_starting_png,bg_invite_player@2x_png,btn_invite_player_to_wechat@2x_png,image_copy_complete@2x_png,img_game_default_avatar@2x_png,img_room_hat@2x_png,img_active_player_sign@2x_png,btn_continue@2x_png,btn_invite@2x_png,btn_invite_on@2x_png,btn_not_call_landlord_on@2x_png,btn_continue_game@2x_png,btn_continue_game_on@2x_png,btn_invite_player_to_qq@2x_png,played_pokers_json,pockers_json",
+			"keys": "img_wrong_card_type_png,btn_call_landlord_1@2x_png,btn_call_landlord_1_disable@2x_png,btn_call_landlord_1_on@2x_png,btn_call_landlord_2@2x_png,btn_call_landlord_2_disable@2x_png,btn_call_landlord_2_on@2x_png,btn_call_landlord_3@2x_png,btn_call_landlord_3_disable@2x_png,btn_call_landlord_3_on@2x_png,btn_hint@2x_png,btn_hint_on@2x_png,btn_not_call_landlord@2x_png,btn_not_play@2x_png,btn_not_play_on@2x_png,btn_play@2x_png,btn_play_disable@2x_png,btn_play_on@2x_png,btn_show_cards_start_game@2x_png,btn_show_cards_start_game_on@2x_png,btn_start_game@2x_png,btn_start_game_on@2x_png,btn_yao_bu_qi@2x_png,btn_yao_bu_qi_on@2x_png,bg_play_game@2x_jpg,img_two_point@2x_png,img_three_point@2x_png,img_one_point@2x_png,img_not_play@2x_png,img_not_call_landlord@2x_png,img_not_add_times@2x_png,img_no_bigger_cards@2x_png,img_add_times@2x_png,img_wait_for_starting_png,bg_invite_player@2x_png,btn_invite_player_to_wechat@2x_png,image_copy_complete@2x_png,img_game_default_avatar@2x_png,img_room_hat@2x_png,img_active_player_sign@2x_png,btn_continue@2x_png,btn_invite@2x_png,btn_invite_on@2x_png,btn_not_call_landlord_on@2x_png,btn_continue_game@2x_png,btn_continue_game_on@2x_png,btn_invite_player_to_qq@2x_png,played_pokers_json,pockers_json,btn_close_game@2x_png",
 			"name": "ddz_play_game_image"
 		},
 		{
@@ -1055,11 +1055,6 @@
 			"name": "bg_settings@2x_png"
 		},
 		{
-			"url": "assets/Common/Alert/bg_popup_alert@2x.png",
-			"type": "image",
-			"name": "bg_popup_alert@2x_png"
-		},
-		{
 			"url": "assets/Common/Alert/btn_alert_cancel@2x.png",
 			"type": "image",
 			"name": "btn_alert_cancel@2x_png"
@@ -1078,16 +1073,6 @@
 			"url": "assets/Common/Alert/btn_alert_ok_on@2x.png",
 			"type": "image",
 			"name": "btn_alert_ok_on@2x_png"
-		},
-		{
-			"url": "assets/Common/Alert/btn_alert_quit@2x.png",
-			"type": "image",
-			"name": "btn_alert_quit@2x_png"
-		},
-		{
-			"url": "assets/Common/Alert/btn_alert_quit_on@2x.png",
-			"type": "image",
-			"name": "btn_alert_quit_on@2x_png"
 		},
 		{
 			"url": "assets/Common/Loading/img_loading_circle@2x.png",
@@ -1220,6 +1205,11 @@
 			"type": "sheet",
 			"name": "pockers_json",
 			"subkeys": "img_hand_card_landlord_sign@2x_png,poker_2c@2x_png,poker_2d@2x_png,poker_2h@2x_png,poker_2s@2x_png,poker_3c@2x_png,poker_3d@2x_png,poker_3h@2x_png,poker_3s@2x_png,poker_4c@2x_png,poker_4d@2x_png,poker_4h@2x_png,poker_4s@2x_png,poker_5c@2x_png,poker_5d@2x_png,poker_5h@2x_png,poker_5s@2x_png,poker_6c@2x_png,poker_6d@2x_png,poker_6h@2x_png,poker_6s@2x_png,poker_7c@2x_png,poker_7d@2x_png,poker_7h@2x_png,poker_7s@2x_png,poker_8c@2x_png,poker_8d@2x_png,poker_8h@2x_png,poker_8s@2x_png,poker_9c@2x_png,poker_9d@2x_png,poker_9h@2x_png,poker_9s@2x_png,poker_ac@2x_png,poker_ad@2x_png,poker_ah@2x_png,poker_as@2x_png,poker_back@2x_png,poker_bw@2x_png,poker_jc@2x_png,poker_jd@2x_png,poker_jh@2x_png,poker_js@2x_png,poker_kc@2x_png,poker_kd@2x_png,poker_kh@2x_png,poker_ks@2x_png,poker_qc@2x_png,poker_qd@2x_png,poker_qh@2x_png,poker_qs@2x_png,poker_rw@2x_png,poker_tc@2x_png,poker_td@2x_png,poker_th@2x_png,poker_ts@2x_png"
+		},
+		{
+			"url": "assets/PlayGame/Toolbar/btn_close_game@2x.png",
+			"type": "image",
+			"name": "btn_close_game@2x_png"
 		}
 	]
 }
