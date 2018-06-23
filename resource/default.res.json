@@ -5,7 +5,7 @@
 			"name": "ddz_launch_game"
 		},
 		{
-			"keys": "btn_click_mp3,ddz_not_play_game_music_mp3",
+			"keys": "btn_click_mp3",
 			"name": "ddz_common_music"
 		},
 		{
@@ -413,11 +413,6 @@
 			"url": "sound/ddz/PlayGame/ddz_play_game_music.mp3",
 			"type": "sound",
 			"name": "ddz_play_game_music_mp3"
-		},
-		{
-			"url": "sound/ddz/Common/ddz_not_play_game_music.mp3",
-			"type": "sound",
-			"name": "ddz_not_play_game_music_mp3"
 		},
 		{
 			"url": "sound/ddz/PlayGame/MalePlayCard/male_grab_1_point.mp3",
