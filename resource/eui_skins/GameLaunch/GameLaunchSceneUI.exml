@@ -3,4 +3,5 @@
 	<e:Image left="0" right="0" top="0" bottom="0" source="bg_launch_game@2x_jpg"/>
 	<e:Label id="descriptionLabel" text="资源载入中..." bottom="90" horizontalCenter="0" textColor="0xaaaaaa"/>
 	<e:ProgressBar id="progress" horizontalCenter="0" bottom="20" value="0" skinName="GameLaunchProgressUI"/>
+	<ns1:DDZPlayGameTopToolbar id="topToolbar" skinName="DDZPlayGameTopToolbarUI" right="0" top="0"/>
 </e:Skin>
