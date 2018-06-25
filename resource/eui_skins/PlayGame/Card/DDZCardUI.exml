@@ -2,6 +2,6 @@
 <e:Skin class="DDZCardUI" width="126" height="182" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Group id="contentGroup" width="100%" height="100%" horizontalCenter="0" y="0">
 		<e:Image id="image" anchorOffsetX="0" anchorOffsetY="0" width="100%" horizontalCenter="0" height="100%" x="0" scaleX="1" scaleY="1" verticalCenter="0" source="poker_2s@2x_png"/>
-		<e:Image id="landlordSignImage" top="0" width="75%" height="50%" y="0" scaleX="1" scaleY="1" source="img_hand_card_landlord_sign@2x_png" right="0"/>
+		<e:Image id="landlordSignImage" width="75%" height="50%" scaleX="1" scaleY="1" source="img_hand_card_landlord_sign@2x_png" right="1" top="3"/>
 	</e:Group>
 </e:Skin>

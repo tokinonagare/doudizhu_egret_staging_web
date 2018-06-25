@@ -38,9 +38,9 @@
 	<ns1:DDZLeftPlayerGameInfoView id="leftPlayerGameInfoView" width="150" skinName="DDZLeftPlayerGameInfoUI" left="189" top="186" height="150"/>
 	<ns1:DDZRightPlayerGameInfoView id="rightPlayerGameInfoView" skinName="DDZRightPlayerGameInfoUI" right="189" top="186"/>
 	<ns1:DDZActivePlayerSignView id="activePlayerSignView" skinName="DDZActivePlayerSignUI" horizontalCenter="0" top="192"/>
-	<ns1:DDZPlayedCardListView id="leftPlayerPlayedCardListView" width="350" left="20" top="491" height="110"/>
-	<ns1:DDZPlayedCardListView id="rightPlayerPlayedCardListView" width="350" right="20" top="491" height="110"/>
-	<ns1:DDZPlayedCardListView id="bottomPlayerPlayedCardListView" width="750" height="110" horizontalCenter="0" bottom="388"/>
+	<ns1:DDZPlayedCardListView id="leftPlayerPlayedCardListView" width="368" left="10" top="491" height="110"/>
+	<ns1:DDZPlayedCardListView id="rightPlayerPlayedCardListView" width="368" right="10" top="491" height="110"/>
+	<ns1:DDZPlayedCardListView id="bottomPlayerPlayedCardListView" width="750" height="110" horizontalCenter="0" bottom="398"/>
 	<ns1:DDZBottomPlayerHandCardsView id="bottomPlayerHandCardsView" skinName="DDZBottomPlayerHandCardsUI" horizontalCenter="2" bottom="68"/>
 	<ns1:DDZPlayGameButtonsContainer id="playGameButtonsContainer" skinName="DDZPlayGameButtonsContainerUI" horizontalCenter="0" bottom="382"/>
 	<ns1:DDZLandlordCardsView id="landlordCardsView" skinName="DDZLandlordCardsUI" horizontalCenter="0.5" top="84"/>
