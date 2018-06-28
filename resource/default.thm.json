@@ -106,7 +106,7 @@
     },
     {
       "path": "resource/eui_skins/PlayGame/DDZGameOverUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"DDZGameOverUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Button id=\"continueButton\" label=\"\" horizontalCenter=\"0\" verticalCenter=\"0\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"btn_continue@2x_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"DDZGameOverUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Button id=\"continueButton\" label=\"\" horizontalCenter=\"0\" verticalCenter=\"52\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image id=\"img\" width=\"100%\" width.down=\"90%\" height=\"100%\" height.down=\"90%\" verticalCenter=\"0\" horizontalCenter=\"0\" source=\"btn_winner_continue_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n\t<e:Image id=\"resultImage\" source=\"image_winner_png\" scaleX=\"1\" scaleY=\"1\" left=\"168\" bottom=\"723\" top=\"334\" right=\"168\" horizontalCenter=\"0\" verticalCenter=\"-194.5\"/>\r\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/PlayGame/DDZPlayGameMatchPlayerUI.exml",
