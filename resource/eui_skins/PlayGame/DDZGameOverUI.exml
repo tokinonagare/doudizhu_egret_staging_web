@@ -8,5 +8,5 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Image id="resultImage" source="image_winner_png" scaleX="1" scaleY="1" left="168" bottom="723" top="334" right="168" horizontalCenter="0" verticalCenter="-194.5"/>
+	<e:Image id="resultImage" source="image_winner_png" scaleX="1" scaleY="1" left="168" bottom="723" top="334" right="168" horizontalCenter="0" verticalCenter="-194.5" width="520" height="326"/>
 </e:Skin>
