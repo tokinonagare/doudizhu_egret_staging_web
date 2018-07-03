@@ -6,7 +6,7 @@
 			<e:Image id="landlordHatImage" scaleX="1" scaleY="1" source="img_room_hat@2x_png" horizontalCenter="0" top="-32"/>
 		</e:Group>
 		<e:Label id="nameLabel" text="野蛮人战争热尔菲" y="125" size="26" horizontalCenter="0" x="43" scaleX="1" scaleY="1" width="100%" wordWrap="false" multiline="false" height="26" textAlign="center"/>
-		<e:Label id="scoreLabel" text="积分：1122" y="125" size="26" horizontalCenter="0" x="43" scaleX="1" scaleY="1" width="100%" wordWrap="false" multiline="false" height="26" textAlign="center" visible="false"/>
+		<e:Label id="scoreLabel" text="积分: 0" y="125" size="26" horizontalCenter="0" x="43" scaleX="1" scaleY="1" width="100%" wordWrap="false" multiline="false" height="26" textAlign="center"/>
 		<e:layout>
 			<e:VerticalLayout gap="7" horizontalAlign="center" verticalAlign="top"/>
 		</e:layout>

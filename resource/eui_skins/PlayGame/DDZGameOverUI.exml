@@ -10,7 +10,7 @@
 		</e:skinName>
 	</e:Button>
 	<e:Image id="resultImage" source="image_winner_png" scaleX="1" scaleY="1" left="168" bottom="723" top="334" right="168" horizontalCenter="0" verticalCenter="-194.5" width="520" height="326"/>
-	<e:Label id="leftPlayerScoreLabel" text="" x="200" y="240" bold="true" size="40" visible="false"/>
-	<e:Label id="rightPlayerScoreLabel" text="" x="508" y="240" bold="true" size="40" visible="false"/>
-	<e:Label id="bottomPlayerScoreLabel" text="" x="200" y="1154" bold="true" size="40" visible="false"/>
+	<e:Label id="leftPlayerScoreLabel" text="" x="200" y="240" bold="true" size="40"/>
+	<e:Label id="rightPlayerScoreLabel" text="" x="508" y="240" bold="true" size="40"/>
+	<e:Label id="bottomPlayerScoreLabel" text="" x="200" y="1154" bold="true" size="40"/>
 </e:Skin>
