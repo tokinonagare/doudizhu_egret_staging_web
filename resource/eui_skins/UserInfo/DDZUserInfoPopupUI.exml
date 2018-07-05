@@ -19,8 +19,6 @@
 			</e:layout>
 		</e:Group>
 		<e:Label id="idLabel" text="ID: 1001111" scaleX="1" scaleY="1" size="27" left="0" top="49" textColor="0xbf9d75"/>
-		<ns1:DDZUserCoinInfoView id="coinInfoView" skinName="DDZUserCoinInfoUI" bottom="0" left="0"/>
-		<ns1:DDZUserDiamondInfoView id="diamondInfoView" skinName="DDZUserDiamondInfoUI" right="72" bottom="10" visible="false"/>
 		<e:Button id="bindPhoneButton" label="" right="23" verticalCenter="-16.5">
 			<e:skinName>
 				<e:Skin states="up,down,disabled">
