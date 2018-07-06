@@ -1,1 +1,1 @@
-2ed4e8d "    同步doudizhu_egret_web仓库代码" 
+6236cd5 "    添加是否在React_Native上判断，因为部分逻辑是需要和React_Native通信 (#733)" 
