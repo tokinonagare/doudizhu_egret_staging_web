@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InputPhoneUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:DDZTransparentCover x="0" y="0" skinName="DDZTransparentCoverUI"/>
+	<e:Group width="560" height="360" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg_phone_sign_in@2x_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+			<e:Label text="获取验证码" x="-32" y="0" textColor="0x000000" scaleX="1" scaleY="1" size="32"/>
+			<e:Label text="请输入您的手机号" x="-22" y="10" textColor="0x000000" scaleX="1" scaleY="1" width="480" textAlign="left" size="28"/>
+			<e:TextInput id="phoneInput" x="119" y="99" skinName="PhoneTextInputUI" width="480" height="68"/>
+			<e:Button id="nextButton" label="" x="239" y="267">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_next@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="contentJustify" gap="30" paddingTop="20" paddingBottom="20"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>
