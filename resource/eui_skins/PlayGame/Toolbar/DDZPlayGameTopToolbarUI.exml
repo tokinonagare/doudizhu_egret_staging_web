@@ -10,4 +10,12 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
+	<e:Button id="downloadLaiwanButton" label="" y="55" x="203" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_download_laiwan@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
 </e:Skin>
