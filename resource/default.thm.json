@@ -30,7 +30,7 @@
     },
     {
       "path": "resource/eui_skins/GameLaunch/GameLaunchProgressUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameLaunchProgressUI\" width=\"650\" height=\"50\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image width=\"650\" height=\"50\" scaleX=\"1\" scaleY=\"1\" source=\"bg_progress_bar@2x_png\" horizontalCenter=\"0\" bottom=\"0\"/>\n\t<e:Image id=\"thumb\" height=\"33\" x=\"8\" y=\"4\" scaleX=\"1\" scaleY=\"1\" width=\"633\" source=\"fg_progress_bar@2x_png\"/>\n\t<e:Label id=\"labelDisplay\" text=\"99%\" scaleX=\"1\" scaleY=\"1\" horizontalCenter=\"0\" verticalCenter=\"-4\" textColor=\"0x8c3d11\" size=\"28\"/>\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameLaunchProgressUI\" width=\"599\" height=\"30\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image width=\"599\" height=\"26\" scaleX=\"1\" scaleY=\"1\" source=\"bg_progress_bar@2x_png\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t<e:Image id=\"thumb\" height=\"30\" x=\"0\" y=\"2\" scaleX=\"1\" scaleY=\"1\" width=\"599\" source=\"fg_progress_bar@2x_png\"/>\n\t<e:Label id=\"labelDisplay\" text=\"99%\" scaleX=\"1\" scaleY=\"1\" horizontalCenter=\"0\" verticalCenter=\"0\" textColor=\"0x8c3d11\" size=\"16\" visible=\"false\"/>\n\t<e:Image id=\"rocketImage\" x=\"0\" source=\"img_rocket@2x_png\" verticalCenter=\"3\" anchorOffsetX=\"202\"/>\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/GameLaunch/UserDashboardUI.exml",
@@ -42,7 +42,7 @@
     },
     {
       "path": "resource/eui_skins/GameLaunch/GameLaunchSceneUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameLaunchSceneUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"bg_launch_game@2x_jpg\"/>\n\t<e:Label id=\"descriptionLabel\" text=\"资源载入中...\" bottom=\"90\" horizontalCenter=\"0\" textColor=\"0xaaaaaa\"/>\n\t<e:ProgressBar id=\"progress\" horizontalCenter=\"0\" bottom=\"20\" value=\"0\" skinName=\"GameLaunchProgressUI\"/>\n\t<ns1:UserDashboard id=\"userDashboard\" skinName=\"UserDashboardUI\" horizontalCenter=\"0\" bottom=\"240\"/>\n\t<ns1:DDZPlayGameTopToolbar id=\"topToolbar\" skinName=\"DDZPlayGameTopToolbarUI\" right=\"0\" top=\"0\"/>\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameLaunchSceneUI\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"bg_launch_game@2x_jpg\"/>\n\t<e:Label id=\"descriptionLabel\" text=\"资源载入中...\" bottom=\"172\" horizontalCenter=\"0\" fontFamily=\"FangSong_GB2312\" size=\"23\" textColor=\"0xffffff\"/>\n\t<ns1:QPProgressBar id=\"progress\" skinName=\"GameLaunchProgressUI\" horizontalCenter=\"0\" bottom=\"131\"/>\n\t<ns1:UserDashboard id=\"userDashboard\" skinName=\"UserDashboardUI\" horizontalCenter=\"0\" bottom=\"240\"/>\n\t<ns1:DDZPlayGameTopToolbar id=\"topToolbar\" skinName=\"DDZPlayGameTopToolbarUI\" right=\"0\" top=\"0\"/>\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/GameLaunch/GetVerificationCodeButtonUI.exml",
@@ -146,7 +146,7 @@
     },
     {
       "path": "resource/eui_skins/PlayGame/Player/DDZActivePlayerSignUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"DDZActivePlayerSignUI\" width=\"690\" height=\"688\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image id=\"activePlayerSign\" y=\"344\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"DDZActivePlayerSignUI\" width=\"690\" height=\"688\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"activePlayerSign\" y=\"348\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/PlayGame/Player/DDZBottomPlayerHandCardsUI.exml",

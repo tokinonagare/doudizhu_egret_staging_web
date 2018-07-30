@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "app_version_json,warning_light_json,warning_light_png,bg_launch_game@2x_jpg,bg_progress_bar@2x_png,fg_progress_bar@2x_png,iap_id_config_json",
+			"keys": "app_version_json,warning_light_json,warning_light_png,bg_launch_game@2x_jpg,bg_progress_bar@2x_png,fg_progress_bar@2x_png,iap_id_config_json,img_rocket@2x_png",
 			"name": "ddz_launch_game"
 		},
 		{
@@ -1257,6 +1257,11 @@
 			"url": "assets/PlayGame/Button/btn_game_over_download_laiwan.png",
 			"type": "image",
 			"name": "btn_game_over_download_laiwan_png"
+		},
+		{
+			"url": "assets/LaunchGame/img_rocket@2x.png",
+			"type": "image",
+			"name": "img_rocket@2x_png"
 		}
 	]
 }

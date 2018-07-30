@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DDZActivePlayerSignUI" width="690" height="688" xmlns:e="http://ns.egret.com/eui">
-	<e:Image id="activePlayerSign" y="344" source="img_active_player_sign@2x_png" rotation="0" anchorOffsetX="345" anchorOffsetY="344" x="345" touchEnabled="false"/>
+<e:Skin class="DDZActivePlayerSignUI" width="690" height="688" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="activePlayerSign" y="348" source="img_active_player_sign@2x_png" rotation="0" anchorOffsetX="345" anchorOffsetY="344" x="345" touchEnabled="false"/>
 </e:Skin>
