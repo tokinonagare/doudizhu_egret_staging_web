@@ -33,6 +33,7 @@
 	</w:Declarations>
 	<w:Config id="15a1cf9b826"/>
 	<e:Image left="0" right="0" top="0" bottom="0" source="bg_play_game@2x_jpg"/>
+	<e:Label id="roomPinLabel" text="房间：123456789" textColor="0x3e80b0" horizontalCenter="0" verticalCenter="55" size="25"/>
 	<ns1:DDZPlayerView id="rightPlayerView" skinName="DDZPlayerUI" right="20" top="200" scaleX="1"/>
 	<ns1:DDZPlayerView id="leftPlayerView" skinName="DDZPlayerUI" left="20" top="200"/>
 	<ns1:DDZPlayerView id="bottomPlayerView" left="20" bottom="20" skinName="DDZPlayerUI"/>
