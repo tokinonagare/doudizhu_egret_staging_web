@@ -32,7 +32,7 @@
 		</tween:TweenGroup>
 	</w:Declarations>
 	<w:Config id="15a1cf9b826"/>
-	<e:Image left="0" right="0" top="0" bottom="0" source="bg_play_game@2x_jpg"/>
+	<e:Image left="2" right="-2" top="0" bottom="0" source="bg_play_game@2x_jpg"/>
 	<e:Label id="roomPinLabel" text="房间：123456789" textColor="0x3e80b0" horizontalCenter="0" verticalCenter="55" size="25"/>
 	<ns1:DDZPlayerView id="rightPlayerView" skinName="DDZPlayerUI" right="20" top="200" scaleX="1"/>
 	<ns1:DDZPlayerView id="leftPlayerView" skinName="DDZPlayerUI" left="20" top="200"/>
@@ -43,6 +43,9 @@
 	<ns1:DDZPlayedCardListView id="leftPlayerPlayedCardListView" width="368" left="10" top="491" height="110"/>
 	<ns1:DDZPlayedCardListView id="rightPlayerPlayedCardListView" width="368" right="10" top="491" height="110"/>
 	<ns1:DDZPlayedCardListView id="bottomPlayerPlayedCardListView" width="750" height="110" horizontalCenter="0" bottom="398"/>
+	<ns1:DDZClockView id="leftPlayerClock" skinName="DDZClockUI" top="367" left="80"/>
+	<ns1:DDZClockView id="rightPlayerClock" skinName="DDZClockUI" top="367" right="80" width="81"/>
+	<ns1:DDZClockView id="bottomPlayerClock" skinName="DDZClockUI" left="80" width="81" bottom="492" height="101"/>
 	<ns1:DDZBottomPlayerHandCardsView id="bottomPlayerHandCardsView" skinName="DDZBottomPlayerHandCardsUI" horizontalCenter="2" bottom="68"/>
 	<ns1:DDZPlayGameButtonsContainer id="playGameButtonsContainer" skinName="DDZPlayGameButtonsContainerUI" horizontalCenter="0" bottom="390"/>
 	<ns1:DDZLandlordCardsView id="landlordCardsView" skinName="DDZLandlordCardsUI" horizontalCenter="0.5" top="84"/>

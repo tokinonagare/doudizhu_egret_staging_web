@@ -17,7 +17,7 @@
 			"name": "ddz_common_image"
 		},
 		{
-			"keys": "img_wrong_card_type_png,btn_call_landlord_1@2x_png,btn_call_landlord_1_disable@2x_png,btn_call_landlord_1_on@2x_png,btn_call_landlord_2@2x_png,btn_call_landlord_2_disable@2x_png,btn_call_landlord_2_on@2x_png,btn_call_landlord_3@2x_png,btn_call_landlord_3_disable@2x_png,btn_call_landlord_3_on@2x_png,btn_hint@2x_png,btn_hint_on@2x_png,btn_not_call_landlord@2x_png,btn_not_play@2x_png,btn_not_play_on@2x_png,btn_play@2x_png,btn_play_disable@2x_png,btn_play_on@2x_png,btn_show_cards_start_game@2x_png,btn_show_cards_start_game_on@2x_png,btn_start_game@2x_png,btn_start_game_on@2x_png,btn_yao_bu_qi@2x_png,btn_yao_bu_qi_on@2x_png,bg_play_game@2x_jpg,img_two_point@2x_png,img_three_point@2x_png,img_one_point@2x_png,img_not_play@2x_png,img_not_call_landlord@2x_png,img_not_add_times@2x_png,img_no_bigger_cards@2x_png,img_add_times@2x_png,img_wait_for_starting_png,bg_invite_player@2x_png,btn_invite_player_to_wechat@2x_png,image_copy_complete@2x_png,img_game_default_avatar@2x_png,img_room_hat@2x_png,img_active_player_sign@2x_png,btn_invite@2x_png,btn_invite_on@2x_png,btn_not_call_landlord_on@2x_png,btn_continue_game@2x_png,btn_continue_game_on@2x_png,btn_invite_player_to_qq@2x_png,btn_close_game@2x_png,pokers_01_json,pokers_02_json,played_pokers_json,btn_loser_continue_png,btn_winner_continue_png,image_loser_png,image_winner_png,btn_download_laiwan@2x_png,btn_game_over_download_laiwan_png",
+			"keys": "img_wrong_card_type_png,btn_call_landlord_1@2x_png,btn_call_landlord_1_disable@2x_png,btn_call_landlord_1_on@2x_png,btn_call_landlord_2@2x_png,btn_call_landlord_2_disable@2x_png,btn_call_landlord_2_on@2x_png,btn_call_landlord_3@2x_png,btn_call_landlord_3_disable@2x_png,btn_call_landlord_3_on@2x_png,btn_hint@2x_png,btn_hint_on@2x_png,btn_not_call_landlord@2x_png,btn_not_play@2x_png,btn_not_play_on@2x_png,btn_play@2x_png,btn_play_disable@2x_png,btn_play_on@2x_png,btn_show_cards_start_game@2x_png,btn_show_cards_start_game_on@2x_png,btn_start_game@2x_png,btn_start_game_on@2x_png,btn_yao_bu_qi@2x_png,btn_yao_bu_qi_on@2x_png,bg_play_game@2x_jpg,img_two_point@2x_png,img_three_point@2x_png,img_one_point@2x_png,img_not_play@2x_png,img_not_call_landlord@2x_png,img_not_add_times@2x_png,img_no_bigger_cards@2x_png,img_add_times@2x_png,img_wait_for_starting_png,bg_invite_player@2x_png,btn_invite_player_to_wechat@2x_png,image_copy_complete@2x_png,img_game_default_avatar@2x_png,img_room_hat@2x_png,img_active_player_sign@2x_png,btn_invite@2x_png,btn_invite_on@2x_png,btn_not_call_landlord_on@2x_png,btn_continue_game@2x_png,btn_continue_game_on@2x_png,btn_invite_player_to_qq@2x_png,btn_close_game@2x_png,pokers_01_json,pokers_02_json,played_pokers_json,btn_loser_continue_png,btn_winner_continue_png,image_loser_png,image_winner_png,btn_download_laiwan@2x_png,btn_game_over_download_laiwan_png,img_room_timer@2x_png",
 			"name": "ddz_play_game_image"
 		},
 		{
@@ -1262,6 +1262,11 @@
 			"url": "assets/LaunchGame/img_rocket@2x.png",
 			"type": "image",
 			"name": "img_rocket@2x_png"
+		},
+		{
+			"url": "assets/PlayGame/img_room_timer@2x.png",
+			"type": "image",
+			"name": "img_room_timer@2x_png"
 		}
 	]
 }

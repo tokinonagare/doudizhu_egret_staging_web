@@ -4,5 +4,5 @@
 	<e:Label id="descriptionLabel" text="正在查找房间..." bottom="172" horizontalCenter="0" fontFamily="FangSong_GB2312" size="23" textColor="0xffffff"/>
 	<ns1:QPProgressBar id="progress" skinName="GameLaunchProgressUI" horizontalCenter="0" bottom="131"/>
 	<ns1:UserDashboard id="userDashboard" skinName="UserDashboardUI" horizontalCenter="0" bottom="240"/>
-	<ns1:DDZPlayGameTopToolbar id="topToolbar" skinName="DDZPlayGameTopToolbarUI" right="0" top="0"/>
+	<ns1:DDZPlayGameTopToolbar id="topToolbar" skinName="DDZPlayGameTopToolbarUI" right="0" top="0" visible="false"/>
 </e:Skin>
