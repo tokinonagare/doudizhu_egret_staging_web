@@ -146,7 +146,7 @@
     },
     {
       "path": "resource/eui_skins/PlayGame/Player/DDZActivePlayerSignUI.exml",
-      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"DDZActivePlayerSignUI\" width=\"690\" height=\"688\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"activePlayerSign\" y=\"348\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n</e:Skin>"
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"DDZActivePlayerSignUI\" width=\"690\" height=\"688\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"leftPlayerSign\" y=\"348\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n\t<e:Image id=\"rightPlayerSign\" y=\"348\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n\t<e:Image id=\"bottomPlayerSign\" y=\"348\" source=\"img_active_player_sign@2x_png\" rotation=\"0\" anchorOffsetX=\"345\" anchorOffsetY=\"344\" x=\"345\" touchEnabled=\"false\"/>\n</e:Skin>"
     },
     {
       "path": "resource/eui_skins/PlayGame/Player/DDZBottomPlayerHandCardsUI.exml",
