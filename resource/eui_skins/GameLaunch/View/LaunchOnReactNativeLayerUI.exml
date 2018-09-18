@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LaunchOnReactNativeLayerUI" width="500" height="150" xmlns:e="http://ns.egret.com/eui">
+	<e:Label id="descriptionLabel" text="正在查找房间..." bottom="0" horizontalCenter="0" fontFamily="FangSong_GB2312" size="23" textColor="0xFFFFFF"/>
+</e:Skin>

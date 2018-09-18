@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InputVerificationCodeUI" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:DDZTransparentCover skinName="DDZTransparentCoverUI" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group width="560" height="406" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg_phone_sign_in@2x_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+		<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+			<e:Label text="验证码已发送" x="250" y="63" textColor="0x000000" size="36" fontFamily="Arial"/>
+			<e:Group width="480" height="70" x="164" y="121">
+				<e:Label id="descriptionLabel" text="已发送到：13111111111" x="0" y="110" textColor="0x000000" size="26" width="480" textAlign="left" scaleX="1" scaleY="1" height="30" verticalAlign="middle"/>
+				<e:Label text="请输入您收到的验证码" x="0" y="110" textColor="0x000000" size="26" width="480" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" height="30"/>
+				<e:layout>
+					<e:VerticalLayout gap="10"/>
+				</e:layout>
+			</e:Group>
+			<ns1:VerificationCodeTextInput id="verificationCodeInput" width="480" height="68" x="67" y="215" skinName="VerificationCodeTextInputUI"/>
+			<e:Button id="okButton" label="" x="237" y="259">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_ok@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:VerticalLayout gap="30" horizontalAlign="center" verticalAlign="middle" paddingTop="20" paddingBottom="20"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

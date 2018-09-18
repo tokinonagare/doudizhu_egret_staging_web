@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetVerificationCodeTimerUI" width="200" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="timerLabel" text="58秒后重新获取" size="26" textColor="0xaaaaaa" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
