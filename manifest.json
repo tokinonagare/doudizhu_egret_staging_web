@@ -1,18 +1,19 @@
 {
 	"initial": [
-		"libs/modules/egret/egret.min.js",
-		"libs/modules/egret/egret.web.min.js",
-		"libs/modules/game/game.min.js",
-		"libs/modules/res/res.min.js",
-		"libs/modules/eui/eui.min.js",
-		"libs/modules/tween/tween.min.js",
-		"libs/modules/socket/socket.min.js",
-		"promise/bin/promise.min.js",
-		"libs/modules/centrifuge/centrifuge.min.js",
-		"libs/modules/uuid/uuid.min.js",
-		"libs/modules/mock/mock.min.js"
+		"js/egret.min_df45737.js",
+		"js/egret.web.min_febf20a9.js",
+		"js/eui.min_506ce9f.js",
+		"js/assetsmanager.min_15cac774.js",
+		"js/tween.min_6c5a88f9.js",
+		"js/game.min_45aa06f6.js",
+		"js/promise.min_83a6a5d.js",
+		"js/socket.min_8b4cb752.js",
+		"js/centrifuge.min_67b596b1.js",
+		"js/uuid.min_56860d1c.js",
+		"js/mock.min_f335a063.js"
 	],
 	"game": [
-		"main.min.js"
+		"js/default.thm_bebb4b6a.js",
+		"js/main.min_da3f9d6b.js"
 	]
 }
