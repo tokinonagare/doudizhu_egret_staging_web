@@ -1,1 +1,1 @@
-1810311215 531a5b3 换成2.hk开头的服务器
+1811021259 be76176 Bugfix/fix others players state wrong at beginning (#807) * 修复断开网后不能获取玩家状态问题
