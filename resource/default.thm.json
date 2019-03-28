@@ -50,7 +50,6 @@
 		"resource/eui_skins/TextInputSkin.exml",
 		"resource/eui_skins/UserInfo/DDZUserInfoAvatarUI.exml",
 		"resource/eui_skins/UserInfo/DDZUserInfoGameDataUI.exml",
-		"resource/eui_skins/UserInfo/DDZUserInfoGenderUI.exml",
 		"resource/eui_skins/UserInfo/DDZUserInfoNameInputUI.exml",
 		"resource/eui_skins/UserInfo/DDZUserInfoPopupUI.exml",
 		"resource/eui_skins/UserInfo/DDZUserInfoSceneUI.exml"
