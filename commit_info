@@ -1,1 +1,1 @@
-1906061755 a4b1544 去掉直连服务器
+1906101429 16374bc 去掉api请求header中的Access-Control-Allow-Origin
