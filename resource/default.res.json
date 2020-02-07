@@ -27,6 +27,10 @@
 		{
 			"keys": "bg_userinfo@2x_png,img_userinfo_avatar_border@2x_png,img_userinfo_default_avatar@2x_png,img_userinfo_female@2x_png,img_userinfo_male@2x_png,btn_userinfo_radio@2x_png,btn_userinfo_radio_on@2x_png,bg_userinfo_edit@2x_png,bg_userinfo_textinput@2x_png,btn_userinfo_textinput_clean@2x_png",
 			"name": "ddz_user_info_image"
+		},
+		{
+			"name": "preload",
+			"keys": "btn_room_invite_0@2x_png"
 		}
 	],
 	"resources": [
@@ -1272,6 +1276,11 @@
 			"url": "assets/PlayGame/Button/btn_room_invite_1@2x.png",
 			"type": "image",
 			"name": "btn_room_invite_1@2x_png"
+		},
+		{
+			"name": "btn_room_invite_0@2x_png",
+			"type": "image",
+			"url": "assets/PlayGame/Button/btn_room_invite_0@2x.png"
 		}
 	]
 }
